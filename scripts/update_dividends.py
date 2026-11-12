@@ -56,6 +56,6 @@ async def main():
                 if f in previous:d[f]=previous[f]
             out["stocks"][key]=d;out["source_status"][market]={"status":"error","message":str(e)[:250]}
     if os.getenv("GITHUB_EVENT_NAME") == "workflow_dispatch":
-        alerts.append("Dividend Alert: ทดสอบระบบ ntfy สำเร็จ\\nข้อความนี้เกิดจากการกด Run workflow ด้วยตนเอง")
-    DATA.write_text(json.dumps(out,ensure_ascii=False,indent=2)+"\\n");notify(alerts);print(json.dumps(out,ensure_ascii=False,indent=2))
+        alerts.append("Dividend Alert: ทดสอบระบบ ntfy สำเร็จ\nข้อความนี้เกิดจากการกด Run workflow ด้วยตนเอง")
+    DATA.write_text(json.dumps(out,ensure_ascii=False,indent=2)+"\n");notify(alerts);print(json.dumps(out,ensure_ascii=False,indent=2))
 if __name__=="__main__":asyncio.run(main())
