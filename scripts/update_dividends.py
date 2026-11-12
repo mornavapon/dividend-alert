@@ -36,7 +36,7 @@ def notify(items):
     if not items:
         print("[NTFY] No XD tomorrow; no alert is expected.")
         return
-    h={"Title":"Dividend Alert · XD พรุ่งนี้","Priority":"high","Tags":"bell"}; token=os.getenv("NTFY_TOKEN","").strip()
+    h={"Title":"Dividend Alert","Priority":"high","Tags":"bell"}; token=os.getenv("NTFY_TOKEN","").strip()
     if token:h["Authorization"]="Bearer "+token
     r=requests.post("https://ntfy.sh/"+topic,data="\n\n".join(items).encode(),headers=h,timeout=20);r.raise_for_status()
 async def main():
