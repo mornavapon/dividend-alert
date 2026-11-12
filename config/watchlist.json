@@ -1,0 +1,7 @@
+{
+  "stocks": [
+    {"ticker":"ADVANC","market":"TH"},
+    {"ticker":"PTT","market":"TH"},
+    {"ticker":"AOT","market":"TH"}
+  ]
+}
