@@ -1,0 +1,34 @@
+name: Dividend Alert
+on:
+  workflow_dispatch:
+  push:
+    paths: ["config/watchlist.json","scripts/**","requirements.txt",".github/workflows/dividend-alert.yml"]
+  schedule:
+    - cron: "30 0 * * *"
+permissions:
+  contents: write
+concurrency:
+  group: dividend-alert
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Update dividend data and notify
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          NTFY_TOKEN: ${{ secrets.NTFY_TOKEN }}
+        run: python scripts/update_dividends.py
+      - name: Commit updated dividend data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/dividends.json
+          git diff --cached --quiet || git commit -m "Update dividend calendar"
+          git push
