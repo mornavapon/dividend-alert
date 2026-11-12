@@ -1,0 +1,9 @@
+{
+  "updated_at": null,
+  "source": "รอทดสอบแหล่งข้อมูล",
+  "stocks": {},
+  "source_status": {
+    "TH": {"status":"not_tested","message":"ยังไม่ได้ทดสอบการเชื่อมต่อ SET"},
+    "US": {"status":"not_tested","message":"ยังไม่ได้ทดสอบการเชื่อมต่อ SmarterDividends"}
+  }
+}
