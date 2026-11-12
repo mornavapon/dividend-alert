@@ -24,10 +24,10 @@ def us(ticker):
     # Endpoint/schema will be validated in the first scheduled workflow run; failures are surfaced, never treated as no dividend.
     r=requests.get("https://smarterdividends.com/api/v1/stocks/"+ticker,headers={"User-Agent":"DividendAlert/1.0"},timeout=25);r.raise_for_status();p=r.json()
     if not isinstance(p,dict):raise ValueError("SmarterDividends response ไม่ใช่ object")
-    ex=p.get("next_ex_date") or p.get("nextExDate"); pay=p.get("next_pay_date") or p.get("nextPayDate"); amount=p.get("next_dividend") or p.get("dividend_per_share")
+    ex=p.get("next_ex_date"); pay=p.get("next_pay_date"); amount=p.get("next_dividend_amount") or p.get("next_dividend_per_share")
     if isinstance(amount,dict):amount=amount.get("amount") or amount.get("value")
     if not ex:return {"status":"no_upcoming","ex_date":None,"payment_date":None,"dividend":None,"currency":"USD/share"}
-    return {"status":"ok","ex_date":str(ex)[:10],"payment_date":str(pay)[:10] if pay else None,"dividend":float(amount) if amount is not None else None,"currency":"USD/share","source":"SmarterDividends"}
+    return {"status":"ok","ex_date":str(ex)[:10],"payment_date":str(pay)[:10] if pay else None,"dividend":float(amount) if amount is not None else None,"currency":"USD/share","source":"SmarterDividends","source_url":"https://smarterdividends.com/dividend-api"}
 def notify(items):
     topic=os.getenv("NTFY_TOPIC","").strip()
     if not topic or not items:return
