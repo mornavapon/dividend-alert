@@ -1,9 +1,39 @@
 {
-  "updated_at": null,
-  "source": "รอทดสอบแหล่งข้อมูล",
-  "stocks": {},
+  "updated_at": "2026-11-12T13:04:09+07:00",
+  "source": "SET Corporate Actions / SmarterDividends",
+  "stocks": {
+    "TH:ADVANC": {
+      "status": "no_upcoming",
+      "ex_date": null,
+      "payment_date": null,
+      "dividend": null,
+      "currency": "บาท/หุ้น",
+      "message": "ไม่พบกำหนด XD รอบถัดไป",
+      "market": "TH"
+    },
+    "TH:PTT": {
+      "status": "no_upcoming",
+      "ex_date": null,
+      "payment_date": null,
+      "dividend": null,
+      "currency": "บาท/หุ้น",
+      "message": "ไม่พบกำหนด XD รอบถัดไป",
+      "market": "TH"
+    },
+    "TH:AOT": {
+      "status": "no_upcoming",
+      "ex_date": null,
+      "payment_date": null,
+      "dividend": null,
+      "currency": "บาท/หุ้น",
+      "message": "ไม่พบกำหนด XD รอบถัดไป",
+      "market": "TH"
+    }
+  },
   "source_status": {
-    "TH": {"status":"not_tested","message":"ยังไม่ได้ทดสอบการเชื่อมต่อ SET"},
-    "US": {"status":"not_tested","message":"ยังไม่ได้ทดสอบการเชื่อมต่อ SmarterDividends"}
+    "TH": {
+      "status": "ok",
+      "message": "เชื่อมต่อและประมวลผลสำเร็จ"
+    }
   }
 }
