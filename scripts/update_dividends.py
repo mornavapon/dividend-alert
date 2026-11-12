@@ -30,7 +30,12 @@ def us(ticker):
     return {"status":"ok","ex_date":str(ex)[:10],"payment_date":str(pay)[:10] if pay else None,"dividend":float(amount) if amount is not None else None,"currency":"USD/share","source":"SmarterDividends","source_url":"https://smarterdividends.com/dividend-api"}
 def notify(items):
     topic=os.getenv("NTFY_TOPIC","").strip()
-    if not topic or not items:return
+    if not topic:
+        print("[NTFY] SKIPPED: NTFY_TOPIC secret is missing or empty")
+        return
+    if not items:
+        print("[NTFY] No XD tomorrow; no alert is expected.")
+        return
     h={"Title":"Dividend Alert · XD พรุ่งนี้","Priority":"high","Tags":"bell"}; token=os.getenv("NTFY_TOKEN","").strip()
     if token:h["Authorization"]="Bearer "+token
     r=requests.post("https://ntfy.sh/"+topic,data="\n\n".join(items).encode(),headers=h,timeout=20);r.raise_for_status()
