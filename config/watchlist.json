@@ -51,6 +51,10 @@
     {
       "ticker": "CPALL.BK",
       "market": "TH"
+    },
+    {
+      "ticker": "CPF.BK",
+      "market": "TH"
     }
   ]
 }
