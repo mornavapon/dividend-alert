@@ -115,15 +115,21 @@ def notify(items):
     if token:
         headers["Authorization"] = "Bearer " + token
 
-    response = requests.post(
-        "https://ntfy.sh/" + topic,
-        data="\n\n".join(items).encode("utf-8"),
-        headers=headers,
-        timeout=20,
-    )
-    response.raise_for_status()
-    print("[NTFY] Notification sent successfully.")
-
+    try:
+        response = requests.post(
+            "https://ntfy.sh/" + topic,
+            data="\n\n".join(items).encode("utf-8"),
+            headers=headers,
+            timeout=20,
+        )
+        if response.status_code == 429:
+            print("[NTFY] WARNING: rate limited (HTTP 429); data update will continue.")
+            return
+        response.raise_for_status()
+        print("[NTFY] Notification sent successfully.")
+    except requests.RequestException as error:
+        print(f"[NTFY] WARNING: notification failed: {type(error).__name__}: {error}")
+        print("[NTFY] Data update will continue; notification can be retried later.")
 
 async def main():
     stocks = json.loads(WATCH.read_text(encoding="utf-8")).get("stocks", [])
