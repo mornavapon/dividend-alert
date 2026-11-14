@@ -47,6 +47,10 @@
     {
       "ticker": "BDMS.BK",
       "market": "TH"
+    },
+    {
+      "ticker": "CPALL.BK",
+      "market": "TH"
     }
   ]
 }
