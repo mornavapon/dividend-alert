@@ -41,7 +41,11 @@
       "market": "US"
     },
     {
-      "ticker": "ADVANC.BK",
+      "ticker": "BBL.BK",
+      "market": "TH"
+    },
+    {
+      "ticker": "BDMS.BK",
       "market": "TH"
     }
   ]
