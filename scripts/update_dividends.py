@@ -27,15 +27,25 @@ async def thai(ticker):
     actions = await get_corporate_actions(ticker, lang="en")
     today = datetime.now(TZ).date()
     rows = []
+    xd_dates = []
+    action_types = {}
 
     for action in actions:
         action_type = str(getattr(action, "ca_type", "")).upper()
-        if action_type not in ("XD", "CASH DIVIDEND", "DIVIDEND"):
-            continue
+        action_types[action_type or "UNKNOWN"] = action_types.get(action_type or "UNKNOWN", 0) + 1
+        if action_type == "XD":
+            ex_date = as_date(getattr(action, "x_date", None))
+            if ex_date:
+                xd_dates.append(ex_date)
+                if ex_date >= today:
+                    rows.append((ex_date, action))
 
-        ex_date = as_date(getattr(action, "x_date", None))
-        if ex_date and ex_date >= today:
-            rows.append((ex_date, action))
+    diagnostics = {
+        "source_record_count": len(actions),
+        "xd_record_count": len(xd_dates),
+        "latest_xd_date_in_source": max(xd_dates).isoformat() if xd_dates else None,
+        "action_type_counts": action_types,
+    }
 
     if not rows:
         return {
@@ -45,6 +55,7 @@ async def thai(ticker):
             "dividend": None,
             "currency": "บาท/หุ้น",
             "message": "ไม่พบกำหนด XD รอบถัดไป",
+            "diagnostics": diagnostics,
         }
 
     ex_date, action = min(rows, key=lambda item: item[0])
@@ -58,8 +69,8 @@ async def thai(ticker):
         "dividend": float(amount) if amount is not None else None,
         "currency": "บาท/หุ้น",
         "source": "SET Corporate Actions",
+        "diagnostics": diagnostics,
     }
-
 
 def us(ticker):
     url = "https://smarterdividends.com/api/v1/stocks/" + ticker
