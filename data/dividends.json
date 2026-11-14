@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T16:16:37+07:00",
+  "updated_at": "2026-11-14T16:19:34+07:00",
   "source": "SET Corporate Actions / SmarterDividends",
   "stocks": {
     "TH:ADVANC": {
@@ -81,16 +81,99 @@
       "payment_date": null,
       "dividend": null,
       "currency": "USD/share",
+      "source": "SmarterDividends",
+      "source_url": "https://smarterdividends.com/stocks/NVDA",
+      "diagnostics": {
+        "as_of": "2026-11-14",
+        "profile_fields": [
+          "as_of",
+          "attribution",
+          "changes",
+          "dividend",
+          "history_url",
+          "industry",
+          "market_cap",
+          "name",
+          "price",
+          "safety",
+          "sector",
+          "symbol",
+          "type",
+          "url",
+          "valuation"
+        ],
+        "dividend_fields": [
+          "annual_amount",
+          "five_year_growth_rate",
+          "forward_yield",
+          "frequency",
+          "growth_streak_years",
+          "last_payment",
+          "next_ex_date",
+          "next_pay_date",
+          "payout_ratio",
+          "variable_distribution"
+        ]
+      },
       "market": "US"
     },
     "US:TSM": {
       "status": "ok",
       "ex_date": "2026-12-10",
-      "payment_date": null,
-      "dividend": null,
+      "payment_date": "2027-04-08",
+      "dividend": 1.107,
       "currency": "USD/share",
       "source": "SmarterDividends",
       "source_url": "https://smarterdividends.com/stocks/TSM",
+      "diagnostics": {
+        "as_of": "2026-11-14",
+        "profile_fields": [
+          "as_of",
+          "attribution",
+          "changes",
+          "dividend",
+          "history_url",
+          "industry",
+          "market_cap",
+          "name",
+          "price",
+          "safety",
+          "sector",
+          "symbol",
+          "type",
+          "url",
+          "valuation"
+        ],
+        "dividend_fields": [
+          "annual_amount",
+          "five_year_growth_rate",
+          "forward_yield",
+          "frequency",
+          "growth_streak_years",
+          "last_payment",
+          "next_ex_date",
+          "next_pay_date",
+          "payout_ratio",
+          "variable_distribution"
+        ],
+        "calendar": {
+          "status": "matched",
+          "record_fields": [
+            "amount",
+            "forward_yield",
+            "frequency",
+            "name",
+            "pay_date",
+            "pct_change",
+            "previous_amount",
+            "safety_grade",
+            "special",
+            "status",
+            "symbol",
+            "type"
+          ]
+        }
+      },
       "market": "US"
     },
     "US:ASML": {
@@ -99,6 +182,40 @@
       "payment_date": null,
       "dividend": null,
       "currency": "USD/share",
+      "source": "SmarterDividends",
+      "source_url": "https://smarterdividends.com/stocks/ASML",
+      "diagnostics": {
+        "as_of": "2026-11-14",
+        "profile_fields": [
+          "as_of",
+          "attribution",
+          "changes",
+          "dividend",
+          "history_url",
+          "industry",
+          "market_cap",
+          "name",
+          "price",
+          "safety",
+          "sector",
+          "symbol",
+          "type",
+          "url",
+          "valuation"
+        ],
+        "dividend_fields": [
+          "annual_amount",
+          "five_year_growth_rate",
+          "forward_yield",
+          "frequency",
+          "growth_streak_years",
+          "last_payment",
+          "next_ex_date",
+          "next_pay_date",
+          "payout_ratio",
+          "variable_distribution"
+        ]
+      },
       "market": "US"
     },
     "US:AAPL": {
@@ -107,6 +224,40 @@
       "payment_date": null,
       "dividend": null,
       "currency": "USD/share",
+      "source": "SmarterDividends",
+      "source_url": "https://smarterdividends.com/stocks/AAPL",
+      "diagnostics": {
+        "as_of": "2026-11-14",
+        "profile_fields": [
+          "as_of",
+          "attribution",
+          "changes",
+          "dividend",
+          "history_url",
+          "industry",
+          "market_cap",
+          "name",
+          "price",
+          "safety",
+          "sector",
+          "symbol",
+          "type",
+          "url",
+          "valuation"
+        ],
+        "dividend_fields": [
+          "annual_amount",
+          "five_year_growth_rate",
+          "forward_yield",
+          "frequency",
+          "growth_streak_years",
+          "last_payment",
+          "next_ex_date",
+          "next_pay_date",
+          "payout_ratio",
+          "variable_distribution"
+        ]
+      },
       "market": "US"
     },
     "US:TSLA": {
@@ -115,6 +266,40 @@
       "payment_date": null,
       "dividend": null,
       "currency": "USD/share",
+      "source": "SmarterDividends",
+      "source_url": "https://smarterdividends.com/stocks/TSLA",
+      "diagnostics": {
+        "as_of": "2026-11-08",
+        "profile_fields": [
+          "as_of",
+          "attribution",
+          "changes",
+          "dividend",
+          "history_url",
+          "industry",
+          "market_cap",
+          "name",
+          "price",
+          "safety",
+          "sector",
+          "symbol",
+          "type",
+          "url",
+          "valuation"
+        ],
+        "dividend_fields": [
+          "annual_amount",
+          "five_year_growth_rate",
+          "forward_yield",
+          "frequency",
+          "growth_streak_years",
+          "last_payment",
+          "next_ex_date",
+          "next_pay_date",
+          "payout_ratio",
+          "variable_distribution"
+        ]
+      },
       "market": "US"
     },
     "US:ARM": {
@@ -123,6 +308,40 @@
       "payment_date": null,
       "dividend": null,
       "currency": "USD/share",
+      "source": "SmarterDividends",
+      "source_url": "https://smarterdividends.com/stocks/ARM",
+      "diagnostics": {
+        "as_of": "2026-11-08",
+        "profile_fields": [
+          "as_of",
+          "attribution",
+          "changes",
+          "dividend",
+          "history_url",
+          "industry",
+          "market_cap",
+          "name",
+          "price",
+          "safety",
+          "sector",
+          "symbol",
+          "type",
+          "url",
+          "valuation"
+        ],
+        "dividend_fields": [
+          "annual_amount",
+          "five_year_growth_rate",
+          "forward_yield",
+          "frequency",
+          "growth_streak_years",
+          "last_payment",
+          "next_ex_date",
+          "next_pay_date",
+          "payout_ratio",
+          "variable_distribution"
+        ]
+      },
       "market": "US"
     }
   },
