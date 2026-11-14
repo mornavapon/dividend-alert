@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T18:57:18+07:00",
+  "updated_at": "2026-11-14T19:07:09+07:00",
   "source": "SET Corporate Actions / SmarterDividends",
   "stocks": {
     "TH:ADVANC": {
@@ -365,12 +365,17 @@
       "status": "error",
       "message": "SymbolNotFoundError: Failed to fetch corporate actions for BBL.BK: HTTP 404",
       "market": "TH"
+    },
+    "TH:EGCO.BK": {
+      "status": "error",
+      "message": "SymbolNotFoundError: Failed to fetch corporate actions for EGCO.BK: HTTP 404",
+      "market": "TH"
     }
   },
   "source_status": {
     "TH": {
       "status": "error",
-      "message": "Failed to fetch corporate actions for BBL.BK: HTTP 404"
+      "message": "Failed to fetch corporate actions for EGCO.BK: HTTP 404"
     },
     "US": {
       "status": "ok",
