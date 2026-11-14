@@ -73,9 +73,9 @@ async def thai(ticker):
     }
 
 def us(ticker):
-    url = "https://smarterdividends.com/api/v1/stocks/" + ticker
+    base_url = "https://smarterdividends.com/api/v1"
     response = requests.get(
-        url,
+        f"{base_url}/stocks/{ticker}",
         headers={"User-Agent": "DividendAlert/1.0"},
         timeout=25,
     )
@@ -83,14 +83,19 @@ def us(ticker):
     payload = response.json()
 
     if not isinstance(payload, dict):
-        raise ValueError("SmarterDividends response ไม่ใช่ object")
+        raise ValueError("SmarterDividends stock response is not an object")
 
-    # SmarterDividends places next_ex_date inside the nested "dividend" object.
     dividend_info = payload.get("dividend") or {}
     if not isinstance(dividend_info, dict):
-        raise ValueError("SmarterDividends field 'dividend' ไม่ใช่ object")
+        raise ValueError("SmarterDividends field 'dividend' is not an object")
 
     ex_date = dividend_info.get("next_ex_date")
+    diagnostics = {
+        "as_of": payload.get("as_of"),
+        "profile_fields": sorted(payload.keys()),
+        "dividend_fields": sorted(dividend_info.keys()),
+    }
+
     if not ex_date:
         return {
             "status": "no_upcoming",
@@ -98,18 +103,76 @@ def us(ticker):
             "payment_date": None,
             "dividend": None,
             "currency": "USD/share",
+            "source": "SmarterDividends",
+            "source_url": payload.get("url") or f"https://smarterdividends.com/stocks/{ticker}",
+            "diagnostics": diagnostics,
         }
 
+    ex_date = str(ex_date)[:10]
+    payment_date = dividend_info.get("next_pay_date") or payload.get("next_pay_date")
+    amount = None
+    calendar_diagnostics = {"status": "not_checked"}
+
+    # The stock profile provides the declared ex-date. The date calendar
+    # provides the actual per-payment amount and pay date.
+    try:
+        calendar_response = requests.get(
+            f"{base_url}/ex-dividend/{ex_date}",
+            headers={"User-Agent": "DividendAlert/1.0"},
+            timeout=25,
+        )
+        calendar_response.raise_for_status()
+        calendar_payload = calendar_response.json()
+
+        if isinstance(calendar_payload, list):
+            records = calendar_payload
+        elif isinstance(calendar_payload, dict):
+            records = None
+            for field in ("dividends", "results", "data", "items"):
+                if isinstance(calendar_payload.get(field), list):
+                    records = calendar_payload[field]
+                    break
+            if records is None:
+                records = [calendar_payload]
+        else:
+            records = []
+
+        match = next((
+            item for item in records
+            if isinstance(item, dict)
+            and str(item.get("ticker") or item.get("symbol") or "").upper() == ticker.upper()
+        ), None)
+        if match:
+            amount = match.get("amount")
+            payment_date = match.get("pay_date") or match.get("payment_date") or payment_date
+            calendar_diagnostics = {
+                "status": "matched",
+                "record_fields": sorted(match.keys()),
+            }
+        else:
+            calendar_diagnostics = {
+                "status": "ticker_not_found",
+                "response_type": type(calendar_payload).__name__,
+                "record_count": len(records),
+                "first_record_fields": sorted(records[0].keys()) if records and isinstance(records[0], dict) else [],
+            }
+    except (requests.RequestException, ValueError) as error:
+        calendar_diagnostics = {
+            "status": "error",
+            "message": f"{type(error).__name__}: {error}"[:250],
+        }
+
+    diagnostics["calendar"] = calendar_diagnostics
     return {
         "status": "ok",
-        "ex_date": str(ex_date)[:10],
-        "payment_date": None,
-        "dividend": None,
+        "ex_date": ex_date,
+        "payment_date": str(payment_date)[:10] if payment_date else None,
+        "dividend": float(amount) if amount is not None else None,
         "currency": "USD/share",
         "source": "SmarterDividends",
-        "source_url": payload.get("url") or "https://smarterdividends.com/stocks/" + ticker,
+        "source_url": payload.get("url") or f"https://smarterdividends.com/stocks/{ticker}",
+        "diagnostics": diagnostics,
     }
-
 
 def notify(items):
     topic = os.getenv("NTFY_TOPIC", "").strip()
