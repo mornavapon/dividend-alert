@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T16:03:02+07:00",
+  "updated_at": "2026-11-14T16:05:02+07:00",
   "source": "SET Corporate Actions / SmarterDividends",
   "stocks": {
     "TH:ADVANC": {
@@ -47,11 +47,13 @@
       "market": "US"
     },
     "US:TSM": {
-      "status": "no_upcoming",
-      "ex_date": null,
+      "status": "ok",
+      "ex_date": "2026-12-10",
       "payment_date": null,
       "dividend": null,
       "currency": "USD/share",
+      "source": "SmarterDividends",
+      "source_url": "https://smarterdividends.com/stocks/TSM",
       "market": "US"
     },
     "US:ASML": {
