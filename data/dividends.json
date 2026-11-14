@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T17:58:37+07:00",
+  "updated_at": "2026-11-14T18:50:50+07:00",
   "source": "SET Corporate Actions / SmarterDividends",
   "stocks": {
     "TH:ADVANC": {
@@ -345,11 +345,6 @@
         ]
       },
       "market": "US"
-    },
-    "TH:BBL.BK": {
-      "status": "error",
-      "message": "SymbolNotFoundError: Failed to fetch corporate actions for BBL.BK: HTTP 404",
-      "market": "TH"
     },
     "TH:BDMS.BK": {
       "status": "error",
