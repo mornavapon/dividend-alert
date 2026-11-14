@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T08:34:46+07:00",
+  "updated_at": "2026-11-14T13:11:29+07:00",
   "source": "SET Corporate Actions / SmarterDividends",
   "stocks": {
     "TH:ADVANC": {
@@ -36,16 +36,50 @@
       "dividend": null,
       "currency": "USD/share",
       "market": "US"
+    },
+    "US:TSM": {
+      "status": "no_upcoming",
+      "ex_date": null,
+      "payment_date": null,
+      "dividend": null,
+      "currency": "USD/share",
+      "market": "US"
+    },
+    "US:ASML": {
+      "status": "no_upcoming",
+      "ex_date": null,
+      "payment_date": null,
+      "dividend": null,
+      "currency": "USD/share",
+      "market": "US"
+    },
+    "US:AAPL": {
+      "status": "no_upcoming",
+      "ex_date": null,
+      "payment_date": null,
+      "dividend": null,
+      "currency": "USD/share",
+      "market": "US"
+    },
+    "TH:AAPL": {
+      "status": "error",
+      "message": "SymbolNotFoundError: Failed to fetch corporate actions for AAPL: HTTP 404",
+      "market": "TH"
+    },
+    "US:GULF.BK": {
+      "status": "error",
+      "message": "HTTPError: 404 Client Error: Not Found for url: https://smarterdividends.com/api/v1/stocks/GULF.BK",
+      "market": "US"
     }
   },
   "source_status": {
     "TH": {
-      "status": "ok",
-      "message": "เชื่อมต่อและประมวลผลสำเร็จ"
+      "status": "error",
+      "message": "Failed to fetch corporate actions for AAPL: HTTP 404"
     },
     "US": {
-      "status": "ok",
-      "message": "เชื่อมต่อและประมวลผลสำเร็จ"
+      "status": "error",
+      "message": "404 Client Error: Not Found for url: https://smarterdividends.com/api/v1/stocks/GULF.BK"
     }
   }
 }
