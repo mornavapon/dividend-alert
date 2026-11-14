@@ -35,6 +35,14 @@
     {
       "ticker": "GULF.BK",
       "market": "US"
+    },
+    {
+      "ticker": "TSLA",
+      "market": "US"
+    },
+    {
+      "ticker": "ARM",
+      "market": "US"
     }
   ]
 }
