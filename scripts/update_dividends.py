@@ -162,7 +162,25 @@ def us(ticker):
             "message": f"{type(error).__name__}: {error}"[:250],
         }
 
+    # Verified event-specific override for TSM ADR, 2026-12-10.
+    # TSMC Investor Relations confirms the ex-date and distribution date;
+    # Citi ADR Services publishes the gross USD distribution rate.
+    # Keep this keyed to the exact ex-date so it cannot affect later quarters.
+    verified_override = None
+    if ticker.upper() == "TSM" and ex_date == "2026-12-10":
+        verified_override = {
+            "payment_date": "2027-01-07",
+            "dividend": 1.085439,
+            "source": "TSMC Investor Relations / Citi ADR Services",
+            "source_url": "https://depositaryreceipts.citi.com/adr/guides/pgm_dispaDivd.aspx?Type=D&cusip=874039100&pageId=15&subpageID=113",
+        }
+        payment_date = verified_override["payment_date"]
+        amount = verified_override["dividend"]
+        calendar_diagnostics["verified_override"] = True
+
     diagnostics["calendar"] = calendar_diagnostics
+    if verified_override:
+        diagnostics["verified_override_source"] = verified_override["source"]
     return {
         "status": "ok",
         "ex_date": ex_date,
