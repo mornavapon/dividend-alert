@@ -15,6 +15,26 @@
     {
       "ticker": "NVDA",
       "market": "US"
+    },
+    {
+      "ticker": "TSM",
+      "market": "US"
+    },
+    {
+      "ticker": "ASML",
+      "market": "US"
+    },
+    {
+      "ticker": "AAPL",
+      "market": "US"
+    },
+    {
+      "ticker": "AAPL",
+      "market": "TH"
+    },
+    {
+      "ticker": "GULF.BK",
+      "market": "US"
     }
   ]
 }
