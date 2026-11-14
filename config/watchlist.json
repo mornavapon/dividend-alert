@@ -1,48 +1,14 @@
 {
   "stocks": [
-    {
-      "ticker": "ADVANC",
-      "market": "TH"
-    },
-    {
-      "ticker": "PTT",
-      "market": "TH"
-    },
-    {
-      "ticker": "AOT",
-      "market": "TH"
-    },
-    {
-      "ticker": "NVDA",
-      "market": "US"
-    },
-    {
-      "ticker": "TSM",
-      "market": "US"
-    },
-    {
-      "ticker": "ASML",
-      "market": "US"
-    },
-    {
-      "ticker": "AAPL",
-      "market": "US"
-    },
-    {
-      "ticker": "AAPL",
-      "market": "TH"
-    },
-    {
-      "ticker": "GULF.BK",
-      "market": "US"
-    },
-    {
-      "ticker": "TSLA",
-      "market": "US"
-    },
-    {
-      "ticker": "ARM",
-      "market": "US"
-    }
+    { "ticker": "ADVANC", "market": "TH" },
+    { "ticker": "PTT", "market": "TH" },
+    { "ticker": "AOT", "market": "TH" },
+    { "ticker": "GULF", "market": "TH" },
+    { "ticker": "NVDA", "market": "US" },
+    { "ticker": "TSM", "market": "US" },
+    { "ticker": "ASML", "market": "US" },
+    { "ticker": "AAPL", "market": "US" },
+    { "ticker": "TSLA", "market": "US" },
+    { "ticker": "ARM", "market": "US" }
   ]
 }
