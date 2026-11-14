@@ -1,0 +1,16 @@
+{
+  "description": "Verified dividend event overrides. Each entry applies only to the exact market, ticker, and ex-date shown.",
+  "events": [
+    {
+      "market": "US",
+      "ticker": "TSM",
+      "ex_date": "2026-12-10",
+      "payment_date": "2027-01-07",
+      "dividend": 1.085439,
+      "currency": "USD/share",
+      "source": "TSMC Investor Relations / Citi ADR Services",
+      "source_url": "https://depositaryreceipts.citi.com/adr/guides/pgm_dispaDivd.aspx?Type=D&cusip=874039100&pageId=15&subpageID=113",
+      "note": "Verified gross ADR distribution for the 2026-12-10 ex-dividend event."
+    }
+  ]
+}
