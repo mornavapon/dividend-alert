@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T16:15:24+07:00",
+  "updated_at": "2026-11-14T16:16:37+07:00",
   "source": "SET Corporate Actions / SmarterDividends",
   "stocks": {
     "TH:ADVANC": {
@@ -9,6 +9,15 @@
       "dividend": null,
       "currency": "บาท/หุ้น",
       "message": "ไม่พบกำหนด XD รอบถัดไป",
+      "diagnostics": {
+        "source_record_count": 18,
+        "xd_record_count": 12,
+        "latest_xd_date_in_source": "2026-08-19",
+        "action_type_counts": {
+          "XD": 12,
+          "XM": 6
+        }
+      },
       "market": "TH"
     },
     "TH:PTT": {
@@ -18,6 +27,16 @@
       "dividend": null,
       "currency": "บาท/หุ้น",
       "message": "ไม่พบกำหนด XD รอบถัดไป",
+      "diagnostics": {
+        "source_record_count": 19,
+        "xd_record_count": 12,
+        "latest_xd_date_in_source": "2026-10-07",
+        "action_type_counts": {
+          "XD": 12,
+          "XM": 6,
+          "XB": 1
+        }
+      },
       "market": "TH"
     },
     "TH:AOT": {
@@ -27,6 +46,15 @@
       "dividend": null,
       "currency": "บาท/หุ้น",
       "message": "ไม่พบกำหนด XD รอบถัดไป",
+      "diagnostics": {
+        "source_record_count": 8,
+        "xd_record_count": 3,
+        "latest_xd_date_in_source": "2025-12-11",
+        "action_type_counts": {
+          "XD": 3,
+          "XM": 5
+        }
+      },
       "market": "TH"
     },
     "TH:GULF": {
@@ -36,6 +64,15 @@
       "dividend": null,
       "currency": "บาท/หุ้น",
       "message": "ไม่พบกำหนด XD รอบถัดไป",
+      "diagnostics": {
+        "source_record_count": 3,
+        "xd_record_count": 1,
+        "latest_xd_date_in_source": "2026-03-02",
+        "action_type_counts": {
+          "XD": 1,
+          "XM": 2
+        }
+      },
       "market": "TH"
     },
     "US:NVDA": {
