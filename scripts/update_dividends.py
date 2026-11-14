@@ -117,7 +117,7 @@ def notify(items):
 
     response = requests.post(
         "https://ntfy.sh/" + topic,
-        data="\\n\\n".join(items).encode("utf-8"),
+        data="\n\n".join(items).encode("utf-8"),
         headers=headers,
         timeout=20,
     )
@@ -164,9 +164,9 @@ async def main():
                 unit = "บาท/หุ้น" if market == "TH" else "USD/share"
                 amount = dividend_data.get("dividend")
                 alerts.append(
-                    f"{ticker}\\n"
-                    f"XD: {dividend_data['ex_date']}\\n"
-                    f"วันจ่าย: {dividend_data.get('payment_date') or 'ยังไม่ประกาศ'}\\n"
+                    f"{ticker}\n"
+                    f"XD: {dividend_data['ex_date']}\n"
+                    f"วันจ่าย: {dividend_data.get('payment_date') or 'ยังไม่ประกาศ'}\n"
                     f"ปันผล: {amount if amount is not None else 'ไม่ระบุ'} {unit}"
                 )
 
@@ -189,12 +189,12 @@ async def main():
 
     if os.getenv("GITHUB_EVENT_NAME") == "workflow_dispatch":
         alerts.append(
-            "Dividend Alert: ทดสอบระบบ ntfy สำเร็จ\\n"
+            "Dividend Alert: ทดสอบระบบ ntfy สำเร็จ\n"
             "ข้อความนี้เกิดจากการกด Run workflow ด้วยตนเอง"
         )
 
     DATA.write_text(
-        json.dumps(output, ensure_ascii=False, indent=2) + "\\n",
+        json.dumps(output, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
     notify(alerts)
