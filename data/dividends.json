@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T16:31:09+07:00",
+  "updated_at": "2026-11-14T17:45:44+07:00",
   "source": "SET Corporate Actions / SmarterDividends",
   "stocks": {
     "TH:ADVANC": {
@@ -345,12 +345,17 @@
         ]
       },
       "market": "US"
+    },
+    "TH:ADVANC.BK": {
+      "status": "error",
+      "message": "SymbolNotFoundError: Failed to fetch corporate actions for ADVANC.BK: HTTP 404",
+      "market": "TH"
     }
   },
   "source_status": {
     "TH": {
-      "status": "ok",
-      "message": "เชื่อมต่อและประมวลผลสำเร็จ"
+      "status": "error",
+      "message": "Failed to fetch corporate actions for ADVANC.BK: HTTP 404"
     },
     "US": {
       "status": "ok",
