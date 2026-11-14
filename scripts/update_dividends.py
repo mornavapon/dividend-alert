@@ -144,7 +144,7 @@ def us(ticker):
         ), None)
         if match:
             amount = match.get("amount")
-            payment_date = payment_date or match.get("pay_date") or match.get("payment_date")
+            payment_date = match.get("pay_date") or match.get("payment_date") or payment_date
             calendar_diagnostics = {
                 "status": "matched",
                 "record_fields": sorted(match.keys()),
