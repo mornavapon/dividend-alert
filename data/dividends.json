@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T17:49:06+07:00",
+  "updated_at": "2026-11-14T17:53:56+07:00",
   "source": "SET Corporate Actions / SmarterDividends",
   "stocks": {
     "TH:ADVANC": {
@@ -360,12 +360,17 @@
       "status": "error",
       "message": "SymbolNotFoundError: Failed to fetch corporate actions for CPALL.BK: HTTP 404",
       "market": "TH"
+    },
+    "TH:CPF.BK": {
+      "status": "error",
+      "message": "SymbolNotFoundError: Failed to fetch corporate actions for CPF.BK: HTTP 404",
+      "market": "TH"
     }
   },
   "source_status": {
     "TH": {
       "status": "error",
-      "message": "Failed to fetch corporate actions for CPALL.BK: HTTP 404"
+      "message": "Failed to fetch corporate actions for CPF.BK: HTTP 404"
     },
     "US": {
       "status": "ok",
