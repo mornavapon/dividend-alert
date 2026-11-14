@@ -51,6 +51,10 @@
     {
       "ticker": "SCC.BK",
       "market": "TH"
+    },
+    {
+      "ticker": "BBL.BK",
+      "market": "TH"
     }
   ]
 }
