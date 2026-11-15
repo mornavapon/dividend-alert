@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T19:07:09+07:00",
+  "updated_at": "2026-11-15T13:52:09+07:00",
   "source": "SET Corporate Actions / SmarterDividends",
   "stocks": {
     "TH:ADVANC": {
@@ -84,7 +84,7 @@
       "source": "SmarterDividends",
       "source_url": "https://smarterdividends.com/stocks/NVDA",
       "diagnostics": {
-        "as_of": "2026-11-14",
+        "as_of": "2026-11-15",
         "profile_fields": [
           "as_of",
           "attribution",
@@ -126,7 +126,7 @@
       "source": "SmarterDividends",
       "source_url": "https://smarterdividends.com/stocks/TSM",
       "diagnostics": {
-        "as_of": "2026-11-14",
+        "as_of": "2026-11-15",
         "profile_fields": [
           "as_of",
           "attribution",
@@ -187,7 +187,7 @@
       "source": "SmarterDividends",
       "source_url": "https://smarterdividends.com/stocks/ASML",
       "diagnostics": {
-        "as_of": "2026-11-14",
+        "as_of": "2026-11-15",
         "profile_fields": [
           "as_of",
           "attribution",
@@ -229,7 +229,7 @@
       "source": "SmarterDividends",
       "source_url": "https://smarterdividends.com/stocks/AAPL",
       "diagnostics": {
-        "as_of": "2026-11-14",
+        "as_of": "2026-11-15",
         "profile_fields": [
           "as_of",
           "attribution",
@@ -271,7 +271,7 @@
       "source": "SmarterDividends",
       "source_url": "https://smarterdividends.com/stocks/TSLA",
       "diagnostics": {
-        "as_of": "2026-11-08",
+        "as_of": "2026-11-15",
         "profile_fields": [
           "as_of",
           "attribution",
@@ -313,7 +313,7 @@
       "source": "SmarterDividends",
       "source_url": "https://smarterdividends.com/stocks/ARM",
       "diagnostics": {
-        "as_of": "2026-11-08",
+        "as_of": "2026-11-15",
         "profile_fields": [
           "as_of",
           "attribution",
