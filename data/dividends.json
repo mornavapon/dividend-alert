@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T12:22:22+07:00",
+  "updated_at": "2026-11-16T12:29:45+07:00",
   "source": "SET Corporate Actions / SmarterDividends",
   "stocks": {
     "TH:ADVANC.BK": {
@@ -622,6 +622,44 @@
         "action_type_counts": {
           "XD": 5,
           "XM": 4
+        }
+      },
+      "market": "TH"
+    },
+    "TH:KBANK.BK": {
+      "status": "no_upcoming",
+      "ex_date": null,
+      "payment_date": null,
+      "dividend": null,
+      "currency": "บาท/หุ้น",
+      "message": "ไม่พบกำหนด XD รอบถัดไป",
+      "diagnostics": {
+        "query_symbol": "KBANK",
+        "source_record_count": 21,
+        "xd_record_count": 13,
+        "latest_xd_date_in_source": "2026-09-09",
+        "action_type_counts": {
+          "XD": 13,
+          "XM": 8
+        }
+      },
+      "market": "TH"
+    },
+    "TH:HMPRO.BK": {
+      "status": "no_upcoming",
+      "ex_date": null,
+      "payment_date": null,
+      "dividend": null,
+      "currency": "บาท/หุ้น",
+      "message": "ไม่พบกำหนด XD รอบถัดไป",
+      "diagnostics": {
+        "query_symbol": "HMPRO",
+        "source_record_count": 18,
+        "xd_record_count": 12,
+        "latest_xd_date_in_source": "2026-09-08",
+        "action_type_counts": {
+          "XD": 12,
+          "XM": 6
         }
       },
       "market": "TH"
