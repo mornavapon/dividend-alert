@@ -1,19 +1,19 @@
 {
   "stocks": [
     {
-      "ticker": "ADVANC",
+      "ticker": "ADVANC.BK",
       "market": "TH"
     },
     {
-      "ticker": "PTT",
+      "ticker": "PTT.BK",
       "market": "TH"
     },
     {
-      "ticker": "AOT",
+      "ticker": "AOT.BK",
       "market": "TH"
     },
     {
-      "ticker": "GULF",
+      "ticker": "GULF.BK",
       "market": "TH"
     },
     {
