@@ -34,6 +34,8 @@ async def thai(ticker):
     today = datetime.now(TZ).date()
     rows = []
     xd_dates = []
+    history = []
+    history_cutoff = today - timedelta(days=365 * 5)
     action_types = {}
 
     for action in actions:
@@ -49,6 +51,25 @@ async def thai(ticker):
             )
             if ex_date:
                 xd_dates.append(ex_date)
+                payment_date = as_date(
+                    action.get("paymentDate")
+                    or action.get("payment_date")
+                    or action.get("approximatePaymentDate")
+                )
+                amount = action.get("dividend")
+                if amount is None:
+                    amount = action.get("tentativeDividend")
+                try:
+                    amount = float(amount) if amount is not None else None
+                except (TypeError, ValueError):
+                    amount = None
+                if ex_date >= history_cutoff:
+                    history.append({
+                        "ex_date": ex_date.isoformat(),
+                        "payment_date": payment_date.isoformat() if payment_date else None,
+                        "dividend": amount,
+                        "currency": "บาท/หุ้น",
+                    })
                 if ex_date >= today:
                     rows.append((ex_date, action))
 
@@ -59,6 +80,8 @@ async def thai(ticker):
         "latest_xd_date_in_source": max(xd_dates).isoformat() if xd_dates else None,
         "action_type_counts": action_types,
         "parser": "raw_set_response",
+        "history_count_5y": len(history),
+        "history_oldest_date": history[-1]["ex_date"] if history else None,
     }
 
     if not rows:
@@ -69,6 +92,8 @@ async def thai(ticker):
             "dividend": None,
             "currency": "บาท/หุ้น",
             "message": "ไม่พบกำหนด XD รอบถัดไป",
+            "history": history,
+            "history_period_years": 5,
             "diagnostics": diagnostics,
         }
 
@@ -94,6 +119,8 @@ async def thai(ticker):
         "dividend": amount,
         "currency": "บาท/หุ้น",
         "source": "SET Corporate Actions",
+        "history": history,
+        "history_period_years": 5,
         "diagnostics": diagnostics,
     }
 
