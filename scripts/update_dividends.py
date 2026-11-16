@@ -25,7 +25,10 @@ def as_date(value):
 
 
 async def thai(ticker):
-    actions = await get_corporate_actions(ticker, lang="en")
+    # The Watchlist uses Yahoo Finance notation (e.g. BDMS.BK),
+    # while SET Corporate Actions expects the local symbol without .BK.
+    set_symbol = ticker.upper().removesuffix(".BK")
+    actions = await get_corporate_actions(set_symbol, lang="en")
     today = datetime.now(TZ).date()
     rows = []
     xd_dates = []
@@ -42,6 +45,7 @@ async def thai(ticker):
                     rows.append((ex_date, action))
 
     diagnostics = {
+        "query_symbol": set_symbol,
         "source_record_count": len(actions),
         "xd_record_count": len(xd_dates),
         "latest_xd_date_in_source": max(xd_dates).isoformat() if xd_dates else None,
