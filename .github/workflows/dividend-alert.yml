@@ -31,4 +31,15 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/dividends.json
           git diff --cached --quiet || git commit -m "Update dividend calendar"
-          git push
+          # A Watchlist edit can arrive while this job is processing data.
+          # Rebase the generated data commit on the latest main before pushing.
+          for attempt in 1 2 3; do
+            git pull --rebase origin main
+            if git push; then
+              exit 0
+            fi
+            echo "Push attempt $attempt failed; retrying..."
+            sleep 2
+          done
+          echo "Could not push updated dividend data after 3 attempts."
+          exit 1
