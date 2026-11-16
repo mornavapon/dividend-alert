@@ -71,6 +71,14 @@
     {
       "ticker": "BTS.BK",
       "market": "TH"
+    },
+    {
+      "ticker": "GPSC.BK",
+      "market": "TH"
+    },
+    {
+      "ticker": "IMPACT.BK",
+      "market": "TH"
     }
   ]
 }
