@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T11:50:29+07:00",
+  "updated_at": "2026-11-16T11:51:41+07:00",
   "source": "SET Corporate Actions / SmarterDividends",
   "stocks": {
     "TH:ADVANC.BK": {
@@ -518,12 +518,36 @@
         }
       },
       "market": "TH"
+    },
+    "TH:GPSC.BK": {
+      "status": "no_upcoming",
+      "ex_date": null,
+      "payment_date": null,
+      "dividend": null,
+      "currency": "บาท/หุ้น",
+      "message": "ไม่พบกำหนด XD รอบถัดไป",
+      "diagnostics": {
+        "query_symbol": "GPSC",
+        "source_record_count": 18,
+        "xd_record_count": 12,
+        "latest_xd_date_in_source": "2026-08-19",
+        "action_type_counts": {
+          "XD": 12,
+          "XM": 6
+        }
+      },
+      "market": "TH"
+    },
+    "TH:IMPACT.BK": {
+      "status": "error",
+      "message": "ResponseParseError: Validation failed for IMPACT (corporate-action) (CorporateAction) at item index 2: 1 validation error for CorporateAction\ninquiryDate\n  Input should be a valid datetime [type=datetime_type, input_value={'startDate': '2026-07-01...6-07-17T00:00:00+07:00'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.14/v/datetime_type",
+      "market": "TH"
     }
   },
   "source_status": {
     "TH": {
-      "status": "ok",
-      "message": "เชื่อมต่อและประมวลผลสำเร็จ"
+      "status": "error",
+      "message": "Validation failed for IMPACT (corporate-action) (CorporateAction) at item index 2: 1 validation error for CorporateAction\ninquiryDate\n  Input should be a valid datetime [type=datetime_type, input_value={'startDate': '2026-07-01...6-07-17T00:00:00+07:"
     },
     "US": {
       "status": "ok",
