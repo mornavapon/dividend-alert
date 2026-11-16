@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T12:30:39+07:00",
+  "updated_at": "2026-11-16T12:34:35+07:00",
   "source": "SET Corporate Actions / SmarterDividends",
   "stocks": {
     "TH:ADVANC.BK": {
@@ -682,12 +682,17 @@
         }
       },
       "market": "TH"
+    },
+    "TH:AXTRART.BK": {
+      "status": "error",
+      "message": "ResponseParseError: Validation failed for AXTRART (corporate-action) (CorporateAction) at item index 3: 1 validation error for CorporateAction\ninquiryDate\n  Input should be a valid datetime [type=datetime_type, input_value={'startDate': '2026-04-16...6-04-30T00:00:00+07:00'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.14/v/datetime_type",
+      "market": "TH"
     }
   },
   "source_status": {
     "TH": {
       "status": "error",
-      "message": "Validation failed for MJLF (corporate-action) (CorporateAction) at item index 3: 1 validation error for CorporateAction\ninquiryDate\n  Input should be a valid datetime [type=datetime_type, input_value={'startDate': '2026-03-20...6-04-17T00:00:00+07:00"
+      "message": "Validation failed for AXTRART (corporate-action) (CorporateAction) at item index 3: 1 validation error for CorporateAction\ninquiryDate\n  Input should be a valid datetime [type=datetime_type, input_value={'startDate': '2026-04-16...6-04-30T00:00:00+07"
     },
     "US": {
       "status": "ok",
