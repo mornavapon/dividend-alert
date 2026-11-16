@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T12:34:35+07:00",
+  "updated_at": "2026-11-16T12:39:58+07:00",
   "source": "SET Corporate Actions / SmarterDividends",
   "stocks": {
     "TH:ADVANC.BK": {
@@ -687,6 +687,157 @@
       "status": "error",
       "message": "ResponseParseError: Validation failed for AXTRART (corporate-action) (CorporateAction) at item index 3: 1 validation error for CorporateAction\ninquiryDate\n  Input should be a valid datetime [type=datetime_type, input_value={'startDate': '2026-04-16...6-04-30T00:00:00+07:00'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.14/v/datetime_type",
       "market": "TH"
+    },
+    "TH:DCC.BK": {
+      "status": "ok",
+      "ex_date": "2026-11-16",
+      "payment_date": "2026-12-02",
+      "dividend": 0.02,
+      "currency": "บาท/หุ้น",
+      "source": "SET Corporate Actions",
+      "diagnostics": {
+        "query_symbol": "DCC",
+        "source_record_count": 30,
+        "xd_record_count": 24,
+        "latest_xd_date_in_source": "2026-11-16",
+        "action_type_counts": {
+          "XD": 24,
+          "XM": 6
+        }
+      },
+      "market": "TH"
+    },
+    "US:MU": {
+      "status": "no_upcoming",
+      "ex_date": null,
+      "payment_date": null,
+      "dividend": null,
+      "currency": "USD/share",
+      "source": "SmarterDividends",
+      "source_url": "https://smarterdividends.com/stocks/MU",
+      "diagnostics": {
+        "as_of": "2026-11-15",
+        "profile_fields": [
+          "as_of",
+          "attribution",
+          "changes",
+          "dividend",
+          "history_url",
+          "industry",
+          "market_cap",
+          "name",
+          "price",
+          "safety",
+          "sector",
+          "symbol",
+          "type",
+          "url",
+          "valuation"
+        ],
+        "dividend_fields": [
+          "annual_amount",
+          "five_year_growth_rate",
+          "forward_yield",
+          "frequency",
+          "growth_streak_is_minimum",
+          "growth_streak_years",
+          "last_payment",
+          "next_ex_date",
+          "next_pay_date",
+          "payout_basis",
+          "payout_ratio",
+          "variable_distribution"
+        ]
+      },
+      "market": "US"
+    },
+    "US:VTI": {
+      "status": "no_upcoming",
+      "ex_date": null,
+      "payment_date": null,
+      "dividend": null,
+      "currency": "USD/share",
+      "source": "SmarterDividends",
+      "source_url": "https://smarterdividends.com/stocks/VTI",
+      "diagnostics": {
+        "as_of": "2026-11-15",
+        "profile_fields": [
+          "as_of",
+          "attribution",
+          "changes",
+          "dividend",
+          "history_url",
+          "industry",
+          "market_cap",
+          "name",
+          "price",
+          "safety",
+          "sector",
+          "symbol",
+          "type",
+          "url",
+          "valuation"
+        ],
+        "dividend_fields": [
+          "annual_amount",
+          "five_year_growth_rate",
+          "forward_yield",
+          "frequency",
+          "growth_streak_is_minimum",
+          "growth_streak_years",
+          "last_payment",
+          "next_ex_date",
+          "next_pay_date",
+          "payout_basis",
+          "payout_ratio",
+          "variable_distribution"
+        ]
+      },
+      "market": "US"
+    },
+    "US:VOO": {
+      "status": "no_upcoming",
+      "ex_date": null,
+      "payment_date": null,
+      "dividend": null,
+      "currency": "USD/share",
+      "source": "SmarterDividends",
+      "source_url": "https://smarterdividends.com/stocks/VOO",
+      "diagnostics": {
+        "as_of": "2026-11-15",
+        "profile_fields": [
+          "as_of",
+          "attribution",
+          "changes",
+          "dividend",
+          "history_url",
+          "industry",
+          "market_cap",
+          "name",
+          "price",
+          "safety",
+          "sector",
+          "symbol",
+          "type",
+          "url",
+          "valuation"
+        ],
+        "dividend_fields": [
+          "annual_amount",
+          "five_year_growth_rate",
+          "forward_yield",
+          "frequency",
+          "growth_streak_is_minimum",
+          "growth_streak_years",
+          "last_payment",
+          "next_ex_date",
+          "next_pay_date",
+          "payout_basis",
+          "payout_ratio",
+          "variable_distribution"
+        ]
+      },
+      "market": "US"
     }
   },
   "source_status": {
