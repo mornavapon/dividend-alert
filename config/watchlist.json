@@ -79,6 +79,10 @@
     {
       "ticker": "IMPACT.BK",
       "market": "TH"
+    },
+    {
+      "ticker": "TVO.BK",
+      "market": "TH"
     }
   ]
 }
