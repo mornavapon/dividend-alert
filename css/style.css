@@ -24,3 +24,26 @@ footer{padding:5px 0 18px}
   .table-scroll th,.table-scroll td{padding:10px 10px}
 }
 
+/* Compact, always-visible sort controls; readable text sizes are preserved. */
+.sort-wrap{gap:8px}
+.sort-label{font-size:13px;color:#c3d7ca;white-space:nowrap}
+.sort-options{display:flex;gap:5px}
+.sort-option{font:inherit;font-weight:650;font-size:14px;color:#c5d8cb;background:#06150c;border:1px solid #24402d;border-radius:8px;padding:8px 11px;cursor:pointer;white-space:nowrap}
+.sort-option.active{background:#126b38;border-color:#239653;color:#fff}
+.sort-option:focus-visible{outline:2px solid #65d995;outline-offset:2px}
+.table-scroll table{width:100%;min-width:680px;table-layout:fixed}
+.table-scroll th,.table-scroll td{padding:9px 10px}
+.table-scroll th:nth-child(1),.table-scroll td:nth-child(1){width:27%}
+.table-scroll th:nth-child(2),.table-scroll td:nth-child(2){width:15%}
+.table-scroll th:nth-child(3),.table-scroll td:nth-child(3){width:15%}
+.table-scroll th:nth-child(4),.table-scroll td:nth-child(4){width:25%}
+.table-scroll th:nth-child(5),.table-scroll td:nth-child(5){width:10%}
+.panel{padding:16px;margin-bottom:12px}
+.add-row{margin:12px 0 8px}
+@media(max-width:680px){
+ .sort-wrap{width:100%;align-items:center;gap:6px}
+ .sort-options{flex:1}
+ .sort-option{flex:1;padding:8px 7px}
+ .table-scroll th,.table-scroll td{padding:9px 9px}
+}
+
