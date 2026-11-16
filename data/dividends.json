@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T12:29:45+07:00",
+  "updated_at": "2026-11-16T12:30:39+07:00",
   "source": "SET Corporate Actions / SmarterDividends",
   "stocks": {
     "TH:ADVANC.BK": {
@@ -660,6 +660,25 @@
         "action_type_counts": {
           "XD": 12,
           "XM": 6
+        }
+      },
+      "market": "TH"
+    },
+    "TH:CPAXT.BK": {
+      "status": "no_upcoming",
+      "ex_date": null,
+      "payment_date": null,
+      "dividend": null,
+      "currency": "บาท/หุ้น",
+      "message": "ไม่พบกำหนด XD รอบถัดไป",
+      "diagnostics": {
+        "query_symbol": "CPAXT",
+        "source_record_count": 6,
+        "xd_record_count": 4,
+        "latest_xd_date_in_source": "2026-08-20",
+        "action_type_counts": {
+          "XD": 4,
+          "XM": 2
         }
       },
       "market": "TH"
