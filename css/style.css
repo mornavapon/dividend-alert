@@ -74,3 +74,22 @@ footer{padding:5px 0 18px}
  .market-panel .sort-options{flex:1}
 }
 
+
+/* Two-source dividend chooser and history page */
+.dialog-backdrop[hidden]{display:none}
+.dialog-backdrop{position:fixed;inset:0;z-index:1000;display:grid;place-items:center;padding:18px;background:#000b;backdrop-filter:blur(5px)}
+.source-dialog{position:relative;width:min(100%,480px);padding:25px;border:1px solid #28543a;border-radius:17px;background:linear-gradient(145deg,#0a1b10,#030c07);box-shadow:0 24px 70px #000b}
+.source-dialog h2{font-size:22px;margin:0 0 8px}
+.source-dialog>p{margin:8px 0 16px}
+.dialog-close{position:absolute;right:13px;top:10px;border:0;background:transparent;color:#c5d8cb;font-size:29px;cursor:pointer}
+.source-choice{display:block;margin:11px 0;padding:15px 16px;border:1px solid #2b4a34;border-radius:11px;background:#07140c;color:#edf7f0;text-decoration:none}
+.source-choice strong,.source-choice span{display:block}
+.source-choice strong{font-size:16px}
+.source-choice span{margin-top:4px;color:#9db5a5;font-size:13px}
+.source-choice:hover{border-color:#4a9a65;background:#0b2113}
+.source-choice.primary-choice{border-color:#21824a;background:#0b2916}
+.dialog-open{overflow:hidden}
+.history-meta{display:flex;gap:10px;flex-wrap:wrap;margin:12px 0;color:#a8c2b0;font-size:13px}
+.history-note{padding:12px 14px;border:1px solid #66552b;border-radius:9px;background:#211b0c;color:#e8d49a;font-size:13px}
+.history-table{min-width:560px}
+@media(max-width:600px){.source-dialog{padding:21px}.source-choice{padding:14px}.source-choice strong{font-size:15px}}
