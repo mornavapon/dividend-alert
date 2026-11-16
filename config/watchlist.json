@@ -63,6 +63,10 @@
     {
       "ticker": "CPF.BK",
       "market": "TH"
+    },
+    {
+      "ticker": "DRT.BK",
+      "market": "TH"
     }
   ]
 }
