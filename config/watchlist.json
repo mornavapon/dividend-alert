@@ -67,6 +67,10 @@
     {
       "ticker": "DRT.BK",
       "market": "TH"
+    },
+    {
+      "ticker": "BTS.BK",
+      "market": "TH"
     }
   ]
 }
