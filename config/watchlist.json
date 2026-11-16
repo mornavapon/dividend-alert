@@ -83,6 +83,10 @@
     {
       "ticker": "TVO.BK",
       "market": "TH"
+    },
+    {
+      "ticker": "MJLF.BK",
+      "market": "TH"
     }
   ]
 }
