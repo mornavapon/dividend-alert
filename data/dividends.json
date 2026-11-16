@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-15T13:52:09+07:00",
+  "updated_at": "2026-11-16T10:35:25+07:00",
   "source": "SET Corporate Actions / SmarterDividends",
   "stocks": {
-    "TH:ADVANC": {
+    "TH:ADVANC.BK": {
       "status": "no_upcoming",
       "ex_date": null,
       "payment_date": null,
@@ -10,6 +10,7 @@
       "currency": "บาท/หุ้น",
       "message": "ไม่พบกำหนด XD รอบถัดไป",
       "diagnostics": {
+        "query_symbol": "ADVANC",
         "source_record_count": 18,
         "xd_record_count": 12,
         "latest_xd_date_in_source": "2026-08-19",
@@ -20,7 +21,7 @@
       },
       "market": "TH"
     },
-    "TH:PTT": {
+    "TH:PTT.BK": {
       "status": "no_upcoming",
       "ex_date": null,
       "payment_date": null,
@@ -28,6 +29,7 @@
       "currency": "บาท/หุ้น",
       "message": "ไม่พบกำหนด XD รอบถัดไป",
       "diagnostics": {
+        "query_symbol": "PTT",
         "source_record_count": 19,
         "xd_record_count": 12,
         "latest_xd_date_in_source": "2026-10-07",
@@ -39,7 +41,7 @@
       },
       "market": "TH"
     },
-    "TH:AOT": {
+    "TH:AOT.BK": {
       "status": "no_upcoming",
       "ex_date": null,
       "payment_date": null,
@@ -47,6 +49,7 @@
       "currency": "บาท/หุ้น",
       "message": "ไม่พบกำหนด XD รอบถัดไป",
       "diagnostics": {
+        "query_symbol": "AOT",
         "source_record_count": 8,
         "xd_record_count": 3,
         "latest_xd_date_in_source": "2025-12-11",
@@ -57,7 +60,7 @@
       },
       "market": "TH"
     },
-    "TH:GULF": {
+    "TH:GULF.BK": {
       "status": "no_upcoming",
       "ex_date": null,
       "payment_date": null,
@@ -65,6 +68,7 @@
       "currency": "บาท/หุ้น",
       "message": "ไม่พบกำหนด XD รอบถัดไป",
       "diagnostics": {
+        "query_symbol": "GULF",
         "source_record_count": 3,
         "xd_record_count": 1,
         "latest_xd_date_in_source": "2026-03-02",
@@ -107,10 +111,12 @@
           "five_year_growth_rate",
           "forward_yield",
           "frequency",
+          "growth_streak_is_minimum",
           "growth_streak_years",
           "last_payment",
           "next_ex_date",
           "next_pay_date",
+          "payout_basis",
           "payout_ratio",
           "variable_distribution"
         ]
@@ -149,10 +155,12 @@
           "five_year_growth_rate",
           "forward_yield",
           "frequency",
+          "growth_streak_is_minimum",
           "growth_streak_years",
           "last_payment",
           "next_ex_date",
           "next_pay_date",
+          "payout_basis",
           "payout_ratio",
           "variable_distribution"
         ],
@@ -210,10 +218,12 @@
           "five_year_growth_rate",
           "forward_yield",
           "frequency",
+          "growth_streak_is_minimum",
           "growth_streak_years",
           "last_payment",
           "next_ex_date",
           "next_pay_date",
+          "payout_basis",
           "payout_ratio",
           "variable_distribution"
         ]
@@ -252,10 +262,12 @@
           "five_year_growth_rate",
           "forward_yield",
           "frequency",
+          "growth_streak_is_minimum",
           "growth_streak_years",
           "last_payment",
           "next_ex_date",
           "next_pay_date",
+          "payout_basis",
           "payout_ratio",
           "variable_distribution"
         ]
@@ -294,10 +306,12 @@
           "five_year_growth_rate",
           "forward_yield",
           "frequency",
+          "growth_streak_is_minimum",
           "growth_streak_years",
           "last_payment",
           "next_ex_date",
           "next_pay_date",
+          "payout_basis",
           "payout_ratio",
           "variable_distribution"
         ]
@@ -336,10 +350,12 @@
           "five_year_growth_rate",
           "forward_yield",
           "frequency",
+          "growth_streak_is_minimum",
           "growth_streak_years",
           "last_payment",
           "next_ex_date",
           "next_pay_date",
+          "payout_basis",
           "payout_ratio",
           "variable_distribution"
         ]
@@ -347,35 +363,107 @@
       "market": "US"
     },
     "TH:BDMS.BK": {
-      "status": "error",
-      "message": "SymbolNotFoundError: Failed to fetch corporate actions for BDMS.BK: HTTP 404",
+      "status": "no_upcoming",
+      "ex_date": null,
+      "payment_date": null,
+      "dividend": null,
+      "currency": "บาท/หุ้น",
+      "message": "ไม่พบกำหนด XD รอบถัดไป",
+      "diagnostics": {
+        "query_symbol": "BDMS",
+        "source_record_count": 19,
+        "xd_record_count": 12,
+        "latest_xd_date_in_source": "2026-09-08",
+        "action_type_counts": {
+          "XD": 12,
+          "XM": 7
+        }
+      },
       "market": "TH"
     },
     "TH:CPALL.BK": {
-      "status": "error",
-      "message": "SymbolNotFoundError: Failed to fetch corporate actions for CPALL.BK: HTTP 404",
+      "status": "no_upcoming",
+      "ex_date": null,
+      "payment_date": null,
+      "dividend": null,
+      "currency": "บาท/หุ้น",
+      "message": "ไม่พบกำหนด XD รอบถัดไป",
+      "diagnostics": {
+        "query_symbol": "CPALL",
+        "source_record_count": 15,
+        "xd_record_count": 6,
+        "latest_xd_date_in_source": "2026-04-30",
+        "action_type_counts": {
+          "XM": 8,
+          "XD": 6,
+          "XB": 1
+        }
+      },
       "market": "TH"
     },
     "TH:SCC.BK": {
-      "status": "error",
-      "message": "SymbolNotFoundError: Failed to fetch corporate actions for SCC.BK: HTTP 404",
+      "status": "no_upcoming",
+      "ex_date": null,
+      "payment_date": null,
+      "dividend": null,
+      "currency": "บาท/หุ้น",
+      "message": "ไม่พบกำหนด XD รอบถัดไป",
+      "diagnostics": {
+        "query_symbol": "SCC",
+        "source_record_count": 20,
+        "xd_record_count": 12,
+        "latest_xd_date_in_source": "2026-08-05",
+        "action_type_counts": {
+          "XM": 7,
+          "XD": 12,
+          "XB": 1
+        }
+      },
       "market": "TH"
     },
     "TH:BBL.BK": {
-      "status": "error",
-      "message": "SymbolNotFoundError: Failed to fetch corporate actions for BBL.BK: HTTP 404",
+      "status": "no_upcoming",
+      "ex_date": null,
+      "payment_date": null,
+      "dividend": null,
+      "currency": "บาท/หุ้น",
+      "message": "ไม่พบกำหนด XD รอบถัดไป",
+      "diagnostics": {
+        "query_symbol": "BBL",
+        "source_record_count": 18,
+        "xd_record_count": 12,
+        "latest_xd_date_in_source": "2026-09-09",
+        "action_type_counts": {
+          "XD": 12,
+          "XM": 6
+        }
+      },
       "market": "TH"
     },
     "TH:EGCO.BK": {
-      "status": "error",
-      "message": "SymbolNotFoundError: Failed to fetch corporate actions for EGCO.BK: HTTP 404",
+      "status": "no_upcoming",
+      "ex_date": null,
+      "payment_date": null,
+      "dividend": null,
+      "currency": "บาท/หุ้น",
+      "message": "ไม่พบกำหนด XD รอบถัดไป",
+      "diagnostics": {
+        "query_symbol": "EGCO",
+        "source_record_count": 18,
+        "xd_record_count": 12,
+        "latest_xd_date_in_source": "2026-09-04",
+        "action_type_counts": {
+          "XD": 12,
+          "XM": 6
+        }
+      },
       "market": "TH"
     }
   },
   "source_status": {
     "TH": {
-      "status": "error",
-      "message": "Failed to fetch corporate actions for EGCO.BK: HTTP 404"
+      "status": "ok",
+      "message": "เชื่อมต่อและประมวลผลสำเร็จ"
     },
     "US": {
       "status": "ok",
