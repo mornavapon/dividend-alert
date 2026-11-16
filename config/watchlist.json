@@ -95,6 +95,10 @@
     {
       "ticker": "SCB.BK",
       "market": "TH"
+    },
+    {
+      "ticker": "TRUE.BK",
+      "market": "TH"
     }
   ]
 }
