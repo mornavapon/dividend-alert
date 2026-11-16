@@ -3,9 +3,23 @@
 <body>
 <header class="topbar"><div class="brand-mark">D</div><div class="brand"><h1>Dividend Alert</h1><p>Personal Dividend Calendar</p></div><span id="connectionBadge" class="badge warn">อ่านข้อมูลสาธารณะ</span></header>
 <main>
+<div class="view-switch" aria-label="เลือกหน้าการแสดงผล"><button id="overviewTab" class="view-tab active" type="button" aria-pressed="true">ภาพรวม</button><button id="marketsTab" class="view-tab" type="button" aria-pressed="false">แยกตลาด</button><span class="view-hint">แท็บเล็ตปัดซ้าย/ขวาเพื่อเปลี่ยนหน้าได้</span></div>
+<div class="pages-viewport" id="pagesViewport">
+<div class="pages-track">
+<section class="view-page" id="overviewPage" aria-label="ภาพรวม">
 <section class="hero panel"><div><p class="eyebrow">MY WATCHLIST</p><h2 id="stockCount">0 หุ้น</h2><p class="muted">ติดตามวันขึ้น XD · วันจ่ายปันผล · เงินปันผลต่อหุ้น</p></div><div class="hero-stat"><strong id="upcomingCount">0</strong><span>รายการ XD ที่กำลังจะถึง</span></div></section>
 <section class="panel"><div class="section-head"><div><h2>Dividend Watchlist</h2><p class="muted">คลิกชื่อหุ้นเพื่อเปิดประวัติปันผลย้อนหลัง</p></div><div class="sort-wrap" aria-label="ตัวเลือกการเรียงข้อมูล"><span class="sort-label">เรียงตาม</span><div class="sort-options"><button id="sortName" class="sort-option" type="button" aria-pressed="false">ชื่อหุ้น A–Z</button><button id="sortDate" class="sort-option active" type="button" aria-pressed="true">วันที่ XD</button></div><button id="refreshBtn" class="btn secondary">↻ โหลดใหม่</button></div></div>
 <form id="addForm" class="add-row"><input id="tickerInput" maxlength="20" placeholder="Yahoo Finance: ADVANC.BK, PTT.BK, AAPL, NVDA" autocomplete="off" required><button class="btn primary" type="submit">+ เพิ่มหุ้น</button></form><p class="muted small">หุ้นไทยใช้ .BK ต่อท้าย เช่น BDMS.BK · หุ้นสหรัฐฯ พิมพ์ Ticker ปกติ เช่น AAPL · ระบบบันทึกอัตโนมัติหลังหยุดเพิ่ม/ลบประมาณ 8 วินาที</p>
 <div class="table-scroll"><table><thead><tr><th>Stock name</th><th>วัน XD</th><th>วันจ่าย</th><th>จำนวนเงิน</th><th></th></tr></thead><tbody id="watchlistBody"><tr><td colspan="5" class="empty">กำลังโหลด Watchlist…</td></tr></tbody></table></div><p id="lastUpdated" class="muted small"></p><p id="statusMessage" class="muted small" aria-live="polite"></p></section>
+</section>
+<section class="view-page" id="marketsPage" aria-label="แยกตามตลาด">
+<div class="market-page-intro"><h2>Dividend by Market</h2><p class="muted">แยกหุ้นไทยและหุ้นสหรัฐฯ คนละหน้าต่าง · ตั้งค่าการเรียงของแต่ละตลาดได้อิสระ</p></div>
+<section class="panel market-panel"><div class="section-head"><div><h2>หุ้นไทย</h2><p class="muted">Thai stocks</p></div><div class="sort-wrap"><span class="sort-label">เรียงตาม</span><div class="sort-options"><button id="thSortName" class="sort-option" type="button" aria-pressed="false">ชื่อหุ้น A–Z</button><button id="thSortDate" class="sort-option active" type="button" aria-pressed="true">วันที่ XD</button></div></div></div>
+<div class="table-scroll"><table><thead><tr><th>Stock name</th><th>วัน XD</th><th>วันจ่าย</th><th>จำนวนเงิน</th><th></th></tr></thead><tbody id="thaiBody"><tr><td colspan="5" class="empty">กำลังโหลด…</td></tr></tbody></table></div></section>
+<section class="panel market-panel"><div class="section-head"><div><h2>หุ้นสหรัฐฯ</h2><p class="muted">US stocks</p></div><div class="sort-wrap"><span class="sort-label">เรียงตาม</span><div class="sort-options"><button id="usSortName" class="sort-option" type="button" aria-pressed="false">ชื่อหุ้น A–Z</button><button id="usSortDate" class="sort-option active" type="button" aria-pressed="true">วันที่ XD</button></div></div></div>
+<div class="table-scroll"><table><thead><tr><th>Stock name</th><th>วัน XD</th><th>วันจ่าย</th><th>จำนวนเงิน</th><th></th></tr></thead><tbody id="usBody"><tr><td colspan="5" class="empty">กำลังโหลด…</td></tr></tbody></table></div></section>
+<p class="muted small">ทั้งสองหน้าต่างใช้ Watchlist และข้อมูลปันผลชุดเดียวกับหน้าแรก การเพิ่มหรือลบหุ้นทำได้จากหน้าแรก</p>
+</section>
+</div></div>
 <section class="panel settings"><h2>เชื่อมต่อเพื่อแก้ไข Watchlist</h2><p class="muted">ดูข้อมูลได้โดยไม่ต้องเชื่อมต่อ แต่การเพิ่ม/ลบหุ้นต้องใช้ GitHub Token ซึ่งจำกัดสิทธิ์เฉพาะ Repository นี้ (Contents: Read and write)</p><label for="tokenInput">Fine-grained GitHub Token</label><div class="token-row"><input id="tokenInput" type="password" placeholder="github_pat_…" autocomplete="off"><button id="connectBtn" class="btn primary">เชื่อมต่อ</button><button id="disconnectBtn" class="btn secondary">ออกจากระบบ</button></div><p id="githubStatus" class="muted small">ยังไม่ได้เชื่อมต่อ</p></section>
 <footer>Dividend Alert · ตรวจสอบประกาศบริษัทและ SET ก่อนใช้ตัดสินใจลงทุน</footer></main><script src="js/app.js"></script></body></html>
