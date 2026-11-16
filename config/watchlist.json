@@ -111,6 +111,10 @@
     {
       "ticker": "CPAXT.BK",
       "market": "TH"
+    },
+    {
+      "ticker": "AXTRART.BK",
+      "market": "TH"
     }
   ]
 }
