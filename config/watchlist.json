@@ -87,6 +87,14 @@
     {
       "ticker": "MJLF.BK",
       "market": "TH"
+    },
+    {
+      "ticker": "RATCH.BK",
+      "market": "TH"
+    },
+    {
+      "ticker": "SCB.BK",
+      "market": "TH"
     }
   ]
 }
