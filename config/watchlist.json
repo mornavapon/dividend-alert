@@ -115,6 +115,22 @@
     {
       "ticker": "AXTRART.BK",
       "market": "TH"
+    },
+    {
+      "ticker": "DCC.BK",
+      "market": "TH"
+    },
+    {
+      "ticker": "MU",
+      "market": "US"
+    },
+    {
+      "ticker": "VTI",
+      "market": "US"
+    },
+    {
+      "ticker": "VOO",
+      "market": "US"
     }
   ]
 }
