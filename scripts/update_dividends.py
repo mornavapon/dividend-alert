@@ -6,7 +6,7 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 import requests
-from settfex.services.set import get_corporate_actions
+from settfex.services.set.stock.corporate_action import CorporateActionService
 
 ROOT = Path(__file__).resolve().parents[1]
 WATCH = ROOT / "config/watchlist.json"
@@ -25,20 +25,28 @@ def as_date(value):
 
 
 async def thai(ticker):
-    # The Watchlist uses Yahoo Finance notation (e.g. BDMS.BK),
-    # while SET Corporate Actions expects the local symbol without .BK.
+    # Use the raw SET response so one optional/malformed field (for example,
+    # inquiryDate returned as a date-range object for some funds/REITs) cannot
+    # invalidate otherwise usable XD records during Pydantic model validation.
     set_symbol = ticker.upper().removesuffix(".BK")
-    actions = await get_corporate_actions(set_symbol, lang="en")
+    service = CorporateActionService()
+    actions = await service.fetch_corporate_actions_raw(set_symbol, lang="en")
     today = datetime.now(TZ).date()
     rows = []
     xd_dates = []
     action_types = {}
 
     for action in actions:
-        action_type = str(getattr(action, "ca_type", "")).upper()
+        if not isinstance(action, dict):
+            continue
+        action_type = str(action.get("caType") or action.get("ca_type") or "").upper()
         action_types[action_type or "UNKNOWN"] = action_types.get(action_type or "UNKNOWN", 0) + 1
         if action_type == "XD":
-            ex_date = as_date(getattr(action, "x_date", None))
+            ex_date = as_date(
+                action.get("xdate")
+                or action.get("xDate")
+                or action.get("x_date")
+            )
             if ex_date:
                 xd_dates.append(ex_date)
                 if ex_date >= today:
@@ -50,6 +58,7 @@ async def thai(ticker):
         "xd_record_count": len(xd_dates),
         "latest_xd_date_in_source": max(xd_dates).isoformat() if xd_dates else None,
         "action_type_counts": action_types,
+        "parser": "raw_set_response",
     }
 
     if not rows:
@@ -64,14 +73,25 @@ async def thai(ticker):
         }
 
     ex_date, action = min(rows, key=lambda item: item[0])
-    payment_date = as_date(getattr(action, "payment_date", None))
-    amount = getattr(action, "dividend", None)
+    payment_date = as_date(
+        action.get("paymentDate")
+        or action.get("payment_date")
+        or action.get("approximatePaymentDate")
+    )
+    amount = action.get("dividend")
+    if amount is None:
+        amount = action.get("tentativeDividend")
+
+    try:
+        amount = float(amount) if amount is not None else None
+    except (TypeError, ValueError):
+        amount = None
 
     return {
         "status": "ok",
         "ex_date": ex_date.isoformat(),
         "payment_date": payment_date.isoformat() if payment_date else None,
-        "dividend": float(amount) if amount is not None else None,
+        "dividend": amount,
         "currency": "บาท/หุ้น",
         "source": "SET Corporate Actions",
         "diagnostics": diagnostics,
