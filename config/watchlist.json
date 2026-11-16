@@ -107,6 +107,10 @@
     {
       "ticker": "HMPRO.BK",
       "market": "TH"
+    },
+    {
+      "ticker": "CPAXT.BK",
+      "market": "TH"
     }
   ]
 }
