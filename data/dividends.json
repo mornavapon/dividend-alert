@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T13:36:03+07:00",
+  "updated_at": "2026-11-16T13:53:03+07:00",
   "source": "SET Corporate Actions / SmarterDividends",
   "stocks": {
     "TH:ADVANC.BK": {
@@ -256,7 +256,7 @@
       "source": "SmarterDividends",
       "source_url": "https://smarterdividends.com/stocks/NVDA",
       "diagnostics": {
-        "as_of": "2026-11-15",
+        "as_of": "2026-11-16",
         "profile_fields": [
           "as_of",
           "attribution",
@@ -300,7 +300,7 @@
       "source": "SmarterDividends",
       "source_url": "https://smarterdividends.com/stocks/TSM",
       "diagnostics": {
-        "as_of": "2026-11-15",
+        "as_of": "2026-11-16",
         "profile_fields": [
           "as_of",
           "attribution",
@@ -2259,7 +2259,7 @@
       "source": "SmarterDividends",
       "source_url": "https://smarterdividends.com/stocks/MU",
       "diagnostics": {
-        "as_of": "2026-11-15",
+        "as_of": "2026-11-16",
         "profile_fields": [
           "as_of",
           "attribution",
@@ -2303,7 +2303,7 @@
       "source": "SmarterDividends",
       "source_url": "https://smarterdividends.com/stocks/VTI",
       "diagnostics": {
-        "as_of": "2026-11-15",
+        "as_of": "2026-11-16",
         "profile_fields": [
           "as_of",
           "attribution",
@@ -2347,7 +2347,7 @@
       "source": "SmarterDividends",
       "source_url": "https://smarterdividends.com/stocks/VOO",
       "diagnostics": {
-        "as_of": "2026-11-15",
+        "as_of": "2026-11-16",
         "profile_fields": [
           "as_of",
           "attribution",
