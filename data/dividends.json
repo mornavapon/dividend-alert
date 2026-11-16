@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T12:39:58+07:00",
+  "updated_at": "2026-11-16T13:00:07+07:00",
   "source": "SET Corporate Actions / SmarterDividends",
   "stocks": {
     "TH:ADVANC.BK": {
@@ -17,7 +17,8 @@
         "action_type_counts": {
           "XD": 12,
           "XM": 6
-        }
+        },
+        "parser": "raw_set_response"
       },
       "market": "TH"
     },
@@ -37,7 +38,8 @@
           "XD": 12,
           "XM": 6,
           "XB": 1
-        }
+        },
+        "parser": "raw_set_response"
       },
       "market": "TH"
     },
@@ -56,7 +58,8 @@
         "action_type_counts": {
           "XD": 3,
           "XM": 5
-        }
+        },
+        "parser": "raw_set_response"
       },
       "market": "TH"
     },
@@ -75,7 +78,8 @@
         "action_type_counts": {
           "XD": 1,
           "XM": 2
-        }
+        },
+        "parser": "raw_set_response"
       },
       "market": "TH"
     },
@@ -377,7 +381,8 @@
         "action_type_counts": {
           "XD": 12,
           "XM": 7
-        }
+        },
+        "parser": "raw_set_response"
       },
       "market": "TH"
     },
@@ -397,7 +402,8 @@
           "XM": 8,
           "XD": 6,
           "XB": 1
-        }
+        },
+        "parser": "raw_set_response"
       },
       "market": "TH"
     },
@@ -417,7 +423,8 @@
           "XM": 7,
           "XD": 12,
           "XB": 1
-        }
+        },
+        "parser": "raw_set_response"
       },
       "market": "TH"
     },
@@ -436,7 +443,8 @@
         "action_type_counts": {
           "XD": 12,
           "XM": 6
-        }
+        },
+        "parser": "raw_set_response"
       },
       "market": "TH"
     },
@@ -455,7 +463,8 @@
         "action_type_counts": {
           "XD": 12,
           "XM": 6
-        }
+        },
+        "parser": "raw_set_response"
       },
       "market": "TH"
     },
@@ -475,7 +484,8 @@
           "XD": 10,
           "XM": 6,
           "XB": 1
-        }
+        },
+        "parser": "raw_set_response"
       },
       "market": "TH"
     },
@@ -494,7 +504,8 @@
         "action_type_counts": {
           "XD": 12,
           "XM": 6
-        }
+        },
+        "parser": "raw_set_response"
       },
       "market": "TH"
     },
@@ -515,7 +526,8 @@
           "XR": 1,
           "XD": 6,
           "XW": 3
-        }
+        },
+        "parser": "raw_set_response"
       },
       "market": "TH"
     },
@@ -534,13 +546,29 @@
         "action_type_counts": {
           "XD": 12,
           "XM": 6
-        }
+        },
+        "parser": "raw_set_response"
       },
       "market": "TH"
     },
     "TH:IMPACT.BK": {
-      "status": "error",
-      "message": "ResponseParseError: Validation failed for IMPACT (corporate-action) (CorporateAction) at item index 2: 1 validation error for CorporateAction\ninquiryDate\n  Input should be a valid datetime [type=datetime_type, input_value={'startDate': '2026-07-01...6-07-17T00:00:00+07:00'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.14/v/datetime_type",
+      "status": "ok",
+      "ex_date": "2026-11-26",
+      "payment_date": "2026-12-11",
+      "dividend": 0.12,
+      "currency": "บาท/หุ้น",
+      "source": "SET Corporate Actions",
+      "diagnostics": {
+        "query_symbol": "IMPACT",
+        "source_record_count": 28,
+        "xd_record_count": 21,
+        "latest_xd_date_in_source": "2026-11-26",
+        "action_type_counts": {
+          "XD": 21,
+          "XM": 7
+        },
+        "parser": "raw_set_response"
+      },
       "market": "TH"
     },
     "TH:TVO.BK": {
@@ -559,13 +587,30 @@
           "XD": 12,
           "XM": 7,
           "XD(ST)": 1
-        }
+        },
+        "parser": "raw_set_response"
       },
       "market": "TH"
     },
     "TH:MJLF.BK": {
-      "status": "error",
-      "message": "ResponseParseError: Validation failed for MJLF (corporate-action) (CorporateAction) at item index 3: 1 validation error for CorporateAction\ninquiryDate\n  Input should be a valid datetime [type=datetime_type, input_value={'startDate': '2026-03-20...6-04-17T00:00:00+07:00'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.14/v/datetime_type",
+      "status": "no_upcoming",
+      "ex_date": null,
+      "payment_date": null,
+      "dividend": null,
+      "currency": "บาท/หุ้น",
+      "message": "ไม่พบกำหนด XD รอบถัดไป",
+      "diagnostics": {
+        "query_symbol": "MJLF",
+        "source_record_count": 32,
+        "xd_record_count": 21,
+        "latest_xd_date_in_source": "2026-09-02",
+        "action_type_counts": {
+          "XD": 21,
+          "XM": 9,
+          "XN": 2
+        },
+        "parser": "raw_set_response"
+      },
       "market": "TH"
     },
     "TH:RATCH.BK": {
@@ -584,7 +629,8 @@
           "XD": 12,
           "XM": 7,
           "XR": 1
-        }
+        },
+        "parser": "raw_set_response"
       },
       "market": "TH"
     },
@@ -603,7 +649,8 @@
         "action_type_counts": {
           "XD": 9,
           "XM": 5
-        }
+        },
+        "parser": "raw_set_response"
       },
       "market": "TH"
     },
@@ -622,7 +669,8 @@
         "action_type_counts": {
           "XD": 5,
           "XM": 4
-        }
+        },
+        "parser": "raw_set_response"
       },
       "market": "TH"
     },
@@ -641,7 +689,8 @@
         "action_type_counts": {
           "XD": 13,
           "XM": 8
-        }
+        },
+        "parser": "raw_set_response"
       },
       "market": "TH"
     },
@@ -660,7 +709,8 @@
         "action_type_counts": {
           "XD": 12,
           "XM": 6
-        }
+        },
+        "parser": "raw_set_response"
       },
       "market": "TH"
     },
@@ -679,13 +729,29 @@
         "action_type_counts": {
           "XD": 4,
           "XM": 2
-        }
+        },
+        "parser": "raw_set_response"
       },
       "market": "TH"
     },
     "TH:AXTRART.BK": {
-      "status": "error",
-      "message": "ResponseParseError: Validation failed for AXTRART (corporate-action) (CorporateAction) at item index 3: 1 validation error for CorporateAction\ninquiryDate\n  Input should be a valid datetime [type=datetime_type, input_value={'startDate': '2026-04-16...6-04-30T00:00:00+07:00'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.14/v/datetime_type",
+      "status": "ok",
+      "ex_date": "2026-11-25",
+      "payment_date": "2026-12-11",
+      "dividend": 0.2121,
+      "currency": "บาท/หุ้น",
+      "source": "SET Corporate Actions",
+      "diagnostics": {
+        "query_symbol": "AXTRART",
+        "source_record_count": 9,
+        "xd_record_count": 7,
+        "latest_xd_date_in_source": "2026-11-25",
+        "action_type_counts": {
+          "XD": 7,
+          "XM": 2
+        },
+        "parser": "raw_set_response"
+      },
       "market": "TH"
     },
     "TH:DCC.BK": {
@@ -703,7 +769,8 @@
         "action_type_counts": {
           "XD": 24,
           "XM": 6
-        }
+        },
+        "parser": "raw_set_response"
       },
       "market": "TH"
     },
@@ -842,8 +909,8 @@
   },
   "source_status": {
     "TH": {
-      "status": "error",
-      "message": "Validation failed for AXTRART (corporate-action) (CorporateAction) at item index 3: 1 validation error for CorporateAction\ninquiryDate\n  Input should be a valid datetime [type=datetime_type, input_value={'startDate': '2026-04-16...6-04-30T00:00:00+07"
+      "status": "ok",
+      "message": "เชื่อมต่อและประมวลผลสำเร็จ"
     },
     "US": {
       "status": "ok",
