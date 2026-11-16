@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T10:47:14+07:00",
+  "updated_at": "2026-11-16T11:50:29+07:00",
   "source": "SET Corporate Actions / SmarterDividends",
   "stocks": {
     "TH:ADVANC.BK": {
@@ -494,6 +494,27 @@
         "action_type_counts": {
           "XD": 12,
           "XM": 6
+        }
+      },
+      "market": "TH"
+    },
+    "TH:BTS.BK": {
+      "status": "no_upcoming",
+      "ex_date": null,
+      "payment_date": null,
+      "dividend": null,
+      "currency": "บาท/หุ้น",
+      "message": "ไม่พบกำหนด XD รอบถัดไป",
+      "diagnostics": {
+        "query_symbol": "BTS",
+        "source_record_count": 17,
+        "xd_record_count": 6,
+        "latest_xd_date_in_source": "2023-08-07",
+        "action_type_counts": {
+          "XM": 7,
+          "XR": 1,
+          "XD": 6,
+          "XW": 3
         }
       },
       "market": "TH"
