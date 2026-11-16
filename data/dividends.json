@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T13:09:46+07:00",
+  "updated_at": "2026-11-16T13:36:03+07:00",
   "source": "SET Corporate Actions / SmarterDividends",
   "stocks": {
     "TH:ADVANC.BK": {
@@ -9,6 +9,69 @@
       "dividend": null,
       "currency": "บาท/หุ้น",
       "message": "ไม่พบกำหนด XD รอบถัดไป",
+      "history": [
+        {
+          "ex_date": "2026-08-19",
+          "payment_date": "2026-09-03",
+          "dividend": 8.69,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2026-02-27",
+          "payment_date": "2026-04-30",
+          "dividend": 27.41,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2025-08-19",
+          "payment_date": "2025-09-03",
+          "dividend": 6.89,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2025-02-20",
+          "payment_date": "2025-04-10",
+          "dividend": 5.74,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2024-08-19",
+          "payment_date": "2024-09-03",
+          "dividend": 4.87,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2024-02-19",
+          "payment_date": "2024-04-17",
+          "dividend": 4.61,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2023-08-18",
+          "payment_date": "2023-09-05",
+          "dividend": 4.0,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2023-02-22",
+          "payment_date": "2023-04-19",
+          "dividend": 4.24,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2022-08-19",
+          "payment_date": "2022-09-06",
+          "dividend": 3.45,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2022-02-18",
+          "payment_date": "2022-04-19",
+          "dividend": 4.24,
+          "currency": "บาท/หุ้น"
+        }
+      ],
+      "history_period_years": 5,
       "diagnostics": {
         "query_symbol": "ADVANC",
         "source_record_count": 18,
@@ -18,7 +81,9 @@
           "XD": 12,
           "XM": 6
         },
-        "parser": "raw_set_response"
+        "parser": "raw_set_response",
+        "history_count_5y": 10,
+        "history_oldest_date": "2022-02-18"
       },
       "market": "TH"
     },
@@ -29,6 +94,69 @@
       "dividend": null,
       "currency": "บาท/หุ้น",
       "message": "ไม่พบกำหนด XD รอบถัดไป",
+      "history": [
+        {
+          "ex_date": "2026-10-07",
+          "payment_date": "2026-10-22",
+          "dividend": 1.4,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2026-03-05",
+          "payment_date": "2026-04-28",
+          "dividend": 1.4,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2025-10-01",
+          "payment_date": "2025-10-17",
+          "dividend": 0.9,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2025-03-06",
+          "payment_date": "2025-04-29",
+          "dividend": 1.3,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2024-08-28",
+          "payment_date": "2024-09-13",
+          "dividend": 0.8,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2024-02-29",
+          "payment_date": "2024-04-30",
+          "dividend": 1.2,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2023-10-04",
+          "payment_date": "2023-10-20",
+          "dividend": 0.8,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2023-03-02",
+          "payment_date": "2023-04-28",
+          "dividend": 0.7,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2022-09-28",
+          "payment_date": "2022-10-12",
+          "dividend": 1.3,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2022-03-03",
+          "payment_date": "2022-04-29",
+          "dividend": 0.8,
+          "currency": "บาท/หุ้น"
+        }
+      ],
+      "history_period_years": 5,
       "diagnostics": {
         "query_symbol": "PTT",
         "source_record_count": 19,
@@ -39,7 +167,9 @@
           "XM": 6,
           "XB": 1
         },
-        "parser": "raw_set_response"
+        "parser": "raw_set_response",
+        "history_count_5y": 10,
+        "history_oldest_date": "2022-03-03"
       },
       "market": "TH"
     },
@@ -50,6 +180,27 @@
       "dividend": null,
       "currency": "บาท/หุ้น",
       "message": "ไม่พบกำหนด XD รอบถัดไป",
+      "history": [
+        {
+          "ex_date": "2025-12-11",
+          "payment_date": "2026-02-05",
+          "dividend": 0.81,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2024-12-04",
+          "payment_date": "2025-02-06",
+          "dividend": 0.79,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2023-12-08",
+          "payment_date": "2024-02-14",
+          "dividend": 0.36,
+          "currency": "บาท/หุ้น"
+        }
+      ],
+      "history_period_years": 5,
       "diagnostics": {
         "query_symbol": "AOT",
         "source_record_count": 8,
@@ -59,7 +210,9 @@
           "XD": 3,
           "XM": 5
         },
-        "parser": "raw_set_response"
+        "parser": "raw_set_response",
+        "history_count_5y": 3,
+        "history_oldest_date": "2023-12-08"
       },
       "market": "TH"
     },
@@ -70,6 +223,15 @@
       "dividend": null,
       "currency": "บาท/หุ้น",
       "message": "ไม่พบกำหนด XD รอบถัดไป",
+      "history": [
+        {
+          "ex_date": "2026-03-02",
+          "payment_date": "2026-05-07",
+          "dividend": 3.25,
+          "currency": "บาท/หุ้น"
+        }
+      ],
+      "history_period_years": 5,
       "diagnostics": {
         "query_symbol": "GULF",
         "source_record_count": 3,
@@ -79,7 +241,9 @@
           "XD": 1,
           "XM": 2
         },
-        "parser": "raw_set_response"
+        "parser": "raw_set_response",
+        "history_count_5y": 1,
+        "history_oldest_date": "2026-03-02"
       },
       "market": "TH"
     },
@@ -199,7 +363,7 @@
       "source": "SmarterDividends",
       "source_url": "https://smarterdividends.com/stocks/ASML",
       "diagnostics": {
-        "as_of": "2026-11-15",
+        "as_of": "2026-11-16",
         "profile_fields": [
           "as_of",
           "attribution",
@@ -243,7 +407,7 @@
       "source": "SmarterDividends",
       "source_url": "https://smarterdividends.com/stocks/AAPL",
       "diagnostics": {
-        "as_of": "2026-11-15",
+        "as_of": "2026-11-16",
         "profile_fields": [
           "as_of",
           "attribution",
@@ -373,6 +537,69 @@
       "dividend": null,
       "currency": "บาท/หุ้น",
       "message": "ไม่พบกำหนด XD รอบถัดไป",
+      "history": [
+        {
+          "ex_date": "2026-09-08",
+          "payment_date": "2026-09-24",
+          "dividend": 0.35,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2026-03-10",
+          "payment_date": "2026-04-24",
+          "dividend": 0.65,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2025-09-09",
+          "payment_date": "2025-09-25",
+          "dividend": 0.35,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2025-03-12",
+          "payment_date": "2025-04-25",
+          "dividend": 0.4,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2024-09-10",
+          "payment_date": "2024-09-25",
+          "dividend": 0.35,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2024-03-06",
+          "payment_date": "2024-04-22",
+          "dividend": 0.35,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2023-09-12",
+          "payment_date": "2023-09-29",
+          "dividend": 0.35,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2023-03-08",
+          "payment_date": "2023-04-24",
+          "dividend": 0.3,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2022-09-14",
+          "payment_date": "2022-09-30",
+          "dividend": 0.3,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2022-03-09",
+          "payment_date": "2022-04-29",
+          "dividend": 0.2,
+          "currency": "บาท/หุ้น"
+        }
+      ],
+      "history_period_years": 5,
       "diagnostics": {
         "query_symbol": "BDMS",
         "source_record_count": 19,
@@ -382,7 +609,9 @@
           "XD": 12,
           "XM": 7
         },
-        "parser": "raw_set_response"
+        "parser": "raw_set_response",
+        "history_count_5y": 10,
+        "history_oldest_date": "2022-03-09"
       },
       "market": "TH"
     },
@@ -393,6 +622,39 @@
       "dividend": null,
       "currency": "บาท/หุ้น",
       "message": "ไม่พบกำหนด XD รอบถัดไป",
+      "history": [
+        {
+          "ex_date": "2026-04-30",
+          "payment_date": "2026-05-22",
+          "dividend": 1.65,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2025-05-06",
+          "payment_date": "2025-05-23",
+          "dividend": 1.35,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2024-05-07",
+          "payment_date": "2024-05-24",
+          "dividend": 1.0,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2023-05-02",
+          "payment_date": "2023-05-19",
+          "dividend": 0.75,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2022-04-28",
+          "payment_date": "2022-05-20",
+          "dividend": 0.6,
+          "currency": "บาท/หุ้น"
+        }
+      ],
+      "history_period_years": 5,
       "diagnostics": {
         "query_symbol": "CPALL",
         "source_record_count": 15,
@@ -403,7 +665,9 @@
           "XD": 6,
           "XB": 1
         },
-        "parser": "raw_set_response"
+        "parser": "raw_set_response",
+        "history_count_5y": 5,
+        "history_oldest_date": "2022-04-28"
       },
       "market": "TH"
     },
@@ -414,6 +678,69 @@
       "dividend": null,
       "currency": "บาท/หุ้น",
       "message": "ไม่พบกำหนด XD รอบถัดไป",
+      "history": [
+        {
+          "ex_date": "2026-08-05",
+          "payment_date": "2026-08-21",
+          "dividend": 3.5,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2026-04-01",
+          "payment_date": "2026-04-21",
+          "dividend": 2.5,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2025-08-13",
+          "payment_date": "2025-08-28",
+          "dividend": 2.5,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2025-04-02",
+          "payment_date": "2025-04-22",
+          "dividend": 2.5,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2024-08-07",
+          "payment_date": "2024-08-23",
+          "dividend": 2.5,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2024-04-04",
+          "payment_date": "2024-04-23",
+          "dividend": 3.5,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2023-08-09",
+          "payment_date": "2023-08-25",
+          "dividend": 2.5,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2023-04-07",
+          "payment_date": "2023-04-25",
+          "dividend": 2.0,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2022-08-10",
+          "payment_date": "2022-08-26",
+          "dividend": 6.0,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2022-04-07",
+          "payment_date": "2022-04-26",
+          "dividend": 10.0,
+          "currency": "บาท/หุ้น"
+        }
+      ],
+      "history_period_years": 5,
       "diagnostics": {
         "query_symbol": "SCC",
         "source_record_count": 20,
@@ -424,7 +751,9 @@
           "XD": 12,
           "XB": 1
         },
-        "parser": "raw_set_response"
+        "parser": "raw_set_response",
+        "history_count_5y": 10,
+        "history_oldest_date": "2022-04-07"
       },
       "market": "TH"
     },
@@ -435,6 +764,69 @@
       "dividend": null,
       "currency": "บาท/หุ้น",
       "message": "ไม่พบกำหนด XD รอบถัดไป",
+      "history": [
+        {
+          "ex_date": "2026-09-09",
+          "payment_date": "2026-09-25",
+          "dividend": 2.0,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2026-04-22",
+          "payment_date": "2026-05-08",
+          "dividend": 8.0,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2025-09-10",
+          "payment_date": "2025-09-26",
+          "dividend": 2.0,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2025-04-23",
+          "payment_date": "2025-05-09",
+          "dividend": 6.5,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2024-09-04",
+          "payment_date": "2024-09-20",
+          "dividend": 2.0,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2024-04-23",
+          "payment_date": "2024-05-10",
+          "dividend": 5.0,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2023-09-06",
+          "payment_date": "2023-09-22",
+          "dividend": 2.0,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2023-04-21",
+          "payment_date": "2023-05-12",
+          "dividend": 3.0,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2022-09-07",
+          "payment_date": "2022-09-23",
+          "dividend": 1.5,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2022-04-21",
+          "payment_date": "2022-05-12",
+          "dividend": 2.5,
+          "currency": "บาท/หุ้น"
+        }
+      ],
+      "history_period_years": 5,
       "diagnostics": {
         "query_symbol": "BBL",
         "source_record_count": 18,
@@ -444,7 +836,9 @@
           "XD": 12,
           "XM": 6
         },
-        "parser": "raw_set_response"
+        "parser": "raw_set_response",
+        "history_count_5y": 10,
+        "history_oldest_date": "2022-04-21"
       },
       "market": "TH"
     },
@@ -455,6 +849,69 @@
       "dividend": null,
       "currency": "บาท/หุ้น",
       "message": "ไม่พบกำหนด XD รอบถัดไป",
+      "history": [
+        {
+          "ex_date": "2026-09-04",
+          "payment_date": "2026-09-18",
+          "dividend": 3.25,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2026-03-13",
+          "payment_date": "2026-04-28",
+          "dividend": 3.25,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2025-09-05",
+          "payment_date": "2025-09-19",
+          "dividend": 3.25,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2025-03-13",
+          "payment_date": "2025-04-23",
+          "dividend": 3.25,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2024-09-13",
+          "payment_date": "2024-09-27",
+          "dividend": 3.25,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2024-03-13",
+          "payment_date": "2024-04-25",
+          "dividend": 3.25,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2023-09-14",
+          "payment_date": "2023-09-28",
+          "dividend": 3.25,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2023-03-14",
+          "payment_date": "2023-04-24",
+          "dividend": 3.25,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2022-09-09",
+          "payment_date": "2022-09-23",
+          "dividend": 3.25,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2022-03-14",
+          "payment_date": "2022-04-27",
+          "dividend": 3.25,
+          "currency": "บาท/หุ้น"
+        }
+      ],
+      "history_period_years": 5,
       "diagnostics": {
         "query_symbol": "EGCO",
         "source_record_count": 18,
@@ -464,7 +921,9 @@
           "XD": 12,
           "XM": 6
         },
-        "parser": "raw_set_response"
+        "parser": "raw_set_response",
+        "history_count_5y": 10,
+        "history_oldest_date": "2022-03-14"
       },
       "market": "TH"
     },
@@ -475,6 +934,57 @@
       "dividend": null,
       "currency": "บาท/หุ้น",
       "message": "ไม่พบกำหนด XD รอบถัดไป",
+      "history": [
+        {
+          "ex_date": "2026-08-31",
+          "payment_date": "2026-09-11",
+          "dividend": 0.45,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2026-05-05",
+          "payment_date": "2026-05-22",
+          "dividend": 0.25,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2025-08-29",
+          "payment_date": "2025-09-12",
+          "dividend": 1.0,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2025-05-08",
+          "payment_date": "2025-05-23",
+          "dividend": 0.55,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2024-08-29",
+          "payment_date": "2024-09-13",
+          "dividend": 0.45,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2023-05-08",
+          "payment_date": "2023-05-25",
+          "dividend": 0.35,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2022-08-30",
+          "payment_date": "2022-09-14",
+          "dividend": 0.4,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2022-05-05",
+          "payment_date": "2022-05-25",
+          "dividend": 0.25,
+          "currency": "บาท/หุ้น"
+        }
+      ],
+      "history_period_years": 5,
       "diagnostics": {
         "query_symbol": "CPF",
         "source_record_count": 17,
@@ -485,7 +995,9 @@
           "XM": 6,
           "XB": 1
         },
-        "parser": "raw_set_response"
+        "parser": "raw_set_response",
+        "history_count_5y": 8,
+        "history_oldest_date": "2022-05-05"
       },
       "market": "TH"
     },
@@ -496,6 +1008,69 @@
       "dividend": null,
       "currency": "บาท/หุ้น",
       "message": "ไม่พบกำหนด XD รอบถัดไป",
+      "history": [
+        {
+          "ex_date": "2026-08-31",
+          "payment_date": "2026-09-11",
+          "dividend": 0.2,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2026-03-02",
+          "payment_date": "2026-05-15",
+          "dividend": 0.14,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2025-09-01",
+          "payment_date": "2025-09-12",
+          "dividend": 0.18,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2025-03-03",
+          "payment_date": "2025-05-16",
+          "dividend": 0.24,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2024-09-02",
+          "payment_date": "2024-09-13",
+          "dividend": 0.26,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2024-03-04",
+          "payment_date": "2024-05-10",
+          "dividend": 0.26,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2023-09-04",
+          "payment_date": "2023-09-15",
+          "dividend": 0.26,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2023-03-03",
+          "payment_date": "2023-05-12",
+          "dividend": 0.26,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2022-09-05",
+          "payment_date": "2022-09-16",
+          "dividend": 0.24,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2022-03-08",
+          "payment_date": "2022-05-13",
+          "dividend": 0.24,
+          "currency": "บาท/หุ้น"
+        }
+      ],
+      "history_period_years": 5,
       "diagnostics": {
         "query_symbol": "DRT",
         "source_record_count": 18,
@@ -505,7 +1080,9 @@
           "XD": 12,
           "XM": 6
         },
-        "parser": "raw_set_response"
+        "parser": "raw_set_response",
+        "history_count_5y": 10,
+        "history_oldest_date": "2022-03-08"
       },
       "market": "TH"
     },
@@ -516,6 +1093,33 @@
       "dividend": null,
       "currency": "บาท/หุ้น",
       "message": "ไม่พบกำหนด XD รอบถัดไป",
+      "history": [
+        {
+          "ex_date": "2023-08-07",
+          "payment_date": "2023-08-25",
+          "dividend": 0.16,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2023-01-30",
+          "payment_date": "2023-02-10",
+          "dividend": 0.15,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2022-08-03",
+          "payment_date": "2022-08-23",
+          "dividend": 0.16,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2022-02-07",
+          "payment_date": "2022-02-24",
+          "dividend": 0.15,
+          "currency": "บาท/หุ้น"
+        }
+      ],
+      "history_period_years": 5,
       "diagnostics": {
         "query_symbol": "BTS",
         "source_record_count": 17,
@@ -527,7 +1131,9 @@
           "XD": 6,
           "XW": 3
         },
-        "parser": "raw_set_response"
+        "parser": "raw_set_response",
+        "history_count_5y": 4,
+        "history_oldest_date": "2022-02-07"
       },
       "market": "TH"
     },
@@ -538,6 +1144,69 @@
       "dividend": null,
       "currency": "บาท/หุ้น",
       "message": "ไม่พบกำหนด XD รอบถัดไป",
+      "history": [
+        {
+          "ex_date": "2026-08-19",
+          "payment_date": "2026-09-03",
+          "dividend": 0.55,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2026-02-25",
+          "payment_date": "2026-04-22",
+          "dividend": 0.95,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2025-09-08",
+          "payment_date": "2025-09-24",
+          "dividend": 0.5,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2025-03-03",
+          "payment_date": "2025-04-23",
+          "dividend": 0.45,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2024-09-09",
+          "payment_date": "2024-09-24",
+          "dividend": 0.45,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2024-02-23",
+          "payment_date": "2024-04-23",
+          "dividend": 0.44,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2023-09-06",
+          "payment_date": "2023-09-20",
+          "dividend": 0.3,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2023-02-24",
+          "payment_date": "2023-04-19",
+          "dividend": 0.3,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2022-09-07",
+          "payment_date": "2022-09-21",
+          "dividend": 0.2,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2022-02-24",
+          "payment_date": "2022-04-20",
+          "dividend": 1.0,
+          "currency": "บาท/หุ้น"
+        }
+      ],
+      "history_period_years": 5,
       "diagnostics": {
         "query_symbol": "GPSC",
         "source_record_count": 18,
@@ -547,7 +1216,9 @@
           "XD": 12,
           "XM": 6
         },
-        "parser": "raw_set_response"
+        "parser": "raw_set_response",
+        "history_count_5y": 10,
+        "history_oldest_date": "2022-02-24"
       },
       "market": "TH"
     },
@@ -558,6 +1229,129 @@
       "dividend": 0.12,
       "currency": "บาท/หุ้น",
       "source": "SET Corporate Actions",
+      "history": [
+        {
+          "ex_date": "2026-11-26",
+          "payment_date": "2026-12-11",
+          "dividend": 0.12,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2026-08-27",
+          "payment_date": "2026-09-11",
+          "dividend": 0.24,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2026-06-04",
+          "payment_date": "2026-06-19",
+          "dividend": 0.1,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2026-02-26",
+          "payment_date": "2026-03-13",
+          "dividend": 0.24,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2025-11-27",
+          "payment_date": "2025-12-12",
+          "dividend": 0.13,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2025-08-27",
+          "payment_date": "2025-09-12",
+          "dividend": 0.22,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2025-06-05",
+          "payment_date": "2025-06-20",
+          "dividend": 0.17,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2025-02-26",
+          "payment_date": "2025-03-14",
+          "dividend": 0.17,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2024-11-27",
+          "payment_date": "2024-12-13",
+          "dividend": 0.11,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2024-08-27",
+          "payment_date": "2024-09-13",
+          "dividend": 0.22,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2024-06-06",
+          "payment_date": "2024-06-21",
+          "dividend": 0.1,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2024-02-21",
+          "payment_date": "2024-03-08",
+          "dividend": 0.2,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2023-11-22",
+          "payment_date": "2023-12-08",
+          "dividend": 0.1,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2023-08-23",
+          "payment_date": "2023-09-08",
+          "dividend": 0.14,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2023-05-31",
+          "payment_date": "2023-06-16",
+          "dividend": 0.14,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2023-02-22",
+          "payment_date": "2023-03-10",
+          "dividend": 0.21,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2022-11-23",
+          "payment_date": "2022-12-09",
+          "dividend": 0.15,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2022-08-24",
+          "payment_date": "2022-09-08",
+          "dividend": 0.1,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2022-05-31",
+          "payment_date": "2022-06-17",
+          "dividend": 0.05,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2022-02-23",
+          "payment_date": "2022-03-11",
+          "dividend": 0.05,
+          "currency": "บาท/หุ้น"
+        }
+      ],
+      "history_period_years": 5,
       "diagnostics": {
         "query_symbol": "IMPACT",
         "source_record_count": 28,
@@ -567,7 +1361,9 @@
           "XD": 21,
           "XM": 7
         },
-        "parser": "raw_set_response"
+        "parser": "raw_set_response",
+        "history_count_5y": 20,
+        "history_oldest_date": "2022-02-23"
       },
       "market": "TH"
     },
@@ -578,6 +1374,69 @@
       "dividend": null,
       "currency": "บาท/หุ้น",
       "message": "ไม่พบกำหนด XD รอบถัดไป",
+      "history": [
+        {
+          "ex_date": "2026-08-27",
+          "payment_date": "2026-09-11",
+          "dividend": 0.9,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2026-03-13",
+          "payment_date": "2026-05-15",
+          "dividend": 1.17,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2025-08-22",
+          "payment_date": "2025-09-05",
+          "dividend": 0.8,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2025-03-14",
+          "payment_date": "2025-05-16",
+          "dividend": 0.93,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2024-08-23",
+          "payment_date": "2024-09-06",
+          "dividend": 0.8,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2024-03-13",
+          "payment_date": "2024-05-17",
+          "dividend": 0.65,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2023-08-25",
+          "payment_date": "2023-09-08",
+          "dividend": 0.16,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2023-03-24",
+          "payment_date": "2023-05-19",
+          "dividend": 0.85,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2022-08-26",
+          "payment_date": "2022-10-07",
+          "dividend": 0.2,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2022-03-11",
+          "payment_date": "2022-05-13",
+          "dividend": 0.9,
+          "currency": "บาท/หุ้น"
+        }
+      ],
+      "history_period_years": 5,
       "diagnostics": {
         "query_symbol": "TVO",
         "source_record_count": 20,
@@ -588,7 +1447,9 @@
           "XM": 7,
           "XD(ST)": 1
         },
-        "parser": "raw_set_response"
+        "parser": "raw_set_response",
+        "history_count_5y": 10,
+        "history_oldest_date": "2022-03-11"
       },
       "market": "TH"
     },
@@ -599,6 +1460,117 @@
       "dividend": null,
       "currency": "บาท/หุ้น",
       "message": "ไม่พบกำหนด XD รอบถัดไป",
+      "history": [
+        {
+          "ex_date": "2026-09-02",
+          "payment_date": "2026-09-18",
+          "dividend": 0.18,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2026-06-08",
+          "payment_date": "2026-06-24",
+          "dividend": 0.178,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2026-03-11",
+          "payment_date": "2026-03-27",
+          "dividend": 0.18,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2025-12-04",
+          "payment_date": "2025-12-22",
+          "dividend": 0.18,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2025-09-05",
+          "payment_date": "2025-09-22",
+          "dividend": 0.16,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2025-06-05",
+          "payment_date": "2025-06-23",
+          "dividend": 0.15,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2025-03-12",
+          "payment_date": "2025-03-28",
+          "dividend": 0.195,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2024-12-03",
+          "payment_date": "2024-12-20",
+          "dividend": 0.145,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2024-09-04",
+          "payment_date": "2024-09-20",
+          "dividend": 0.13,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2024-05-31",
+          "payment_date": "2024-06-19",
+          "dividend": 0.1495,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2024-03-13",
+          "payment_date": "2024-03-28",
+          "dividend": 0.135,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2023-12-04",
+          "payment_date": "2023-12-21",
+          "dividend": 0.129,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2023-09-05",
+          "payment_date": "2023-09-20",
+          "dividend": 0.127,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2023-05-31",
+          "payment_date": "2023-06-16",
+          "dividend": 0.127,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2022-09-05",
+          "payment_date": "2022-09-20",
+          "dividend": 0.14,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2022-06-07",
+          "payment_date": "2022-06-22",
+          "dividend": 0.145,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2022-03-16",
+          "payment_date": "2022-03-30",
+          "dividend": 0.215,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2021-12-03",
+          "payment_date": "2021-12-21",
+          "dividend": 0.231,
+          "currency": "บาท/หุ้น"
+        }
+      ],
+      "history_period_years": 5,
       "diagnostics": {
         "query_symbol": "MJLF",
         "source_record_count": 32,
@@ -609,7 +1581,9 @@
           "XM": 9,
           "XN": 2
         },
-        "parser": "raw_set_response"
+        "parser": "raw_set_response",
+        "history_count_5y": 18,
+        "history_oldest_date": "2021-12-03"
       },
       "market": "TH"
     },
@@ -620,6 +1594,69 @@
       "dividend": null,
       "currency": "บาท/หุ้น",
       "message": "ไม่พบกำหนด XD รอบถัดไป",
+      "history": [
+        {
+          "ex_date": "2026-09-08",
+          "payment_date": "2026-09-24",
+          "dividend": 0.7,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2026-03-12",
+          "payment_date": "2026-05-22",
+          "dividend": 0.8,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2025-09-02",
+          "payment_date": "2025-09-18",
+          "dividend": 0.8,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2025-03-17",
+          "payment_date": "2025-05-23",
+          "dividend": 0.8,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2024-09-05",
+          "payment_date": "2024-09-20",
+          "dividend": 0.8,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2024-03-15",
+          "payment_date": "2024-05-23",
+          "dividend": 0.8,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2023-09-01",
+          "payment_date": "2023-09-15",
+          "dividend": 0.8,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2023-03-17",
+          "payment_date": "2023-05-19",
+          "dividend": 0.8,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2022-09-09",
+          "payment_date": "2022-09-23",
+          "dividend": 0.8,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2022-03-17",
+          "payment_date": "2022-05-20",
+          "dividend": 1.35,
+          "currency": "บาท/หุ้น"
+        }
+      ],
+      "history_period_years": 5,
       "diagnostics": {
         "query_symbol": "RATCH",
         "source_record_count": 20,
@@ -630,7 +1667,9 @@
           "XM": 7,
           "XR": 1
         },
-        "parser": "raw_set_response"
+        "parser": "raw_set_response",
+        "history_count_5y": 10,
+        "history_oldest_date": "2022-03-17"
       },
       "market": "TH"
     },
@@ -641,6 +1680,63 @@
       "dividend": null,
       "currency": "บาท/หุ้น",
       "message": "ไม่พบกำหนด XD รอบถัดไป",
+      "history": [
+        {
+          "ex_date": "2026-09-08",
+          "payment_date": "2026-09-25",
+          "dividend": 2.0,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2026-04-20",
+          "payment_date": "2026-05-07",
+          "dividend": 9.28,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2025-09-02",
+          "payment_date": "2025-09-19",
+          "dividend": 2.0,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2025-04-16",
+          "payment_date": "2025-05-02",
+          "dividend": 8.44,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2024-09-05",
+          "payment_date": "2024-09-23",
+          "dividend": 2.0,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2024-04-17",
+          "payment_date": "2024-05-03",
+          "dividend": 7.84,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2023-09-13",
+          "payment_date": "2023-09-29",
+          "dividend": 2.5,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2023-04-17",
+          "payment_date": "2023-05-03",
+          "dividend": 5.19,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2022-10-12",
+          "payment_date": "2022-11-03",
+          "dividend": 1.5,
+          "currency": "บาท/หุ้น"
+        }
+      ],
+      "history_period_years": 5,
       "diagnostics": {
         "query_symbol": "SCB",
         "source_record_count": 14,
@@ -650,7 +1746,9 @@
           "XD": 9,
           "XM": 5
         },
-        "parser": "raw_set_response"
+        "parser": "raw_set_response",
+        "history_count_5y": 9,
+        "history_oldest_date": "2022-10-12"
       },
       "market": "TH"
     },
@@ -661,6 +1759,39 @@
       "dividend": null,
       "currency": "บาท/หุ้น",
       "message": "ไม่พบกำหนด XD รอบถัดไป",
+      "history": [
+        {
+          "ex_date": "2026-11-13",
+          "payment_date": "2026-12-01",
+          "dividend": 0.16,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2026-08-17",
+          "payment_date": "2026-09-02",
+          "dividend": 0.15,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2026-05-20",
+          "payment_date": "2026-06-05",
+          "dividend": 0.14,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2026-05-08",
+          "payment_date": "2026-05-26",
+          "dividend": 0.12,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2025-11-17",
+          "payment_date": "2025-12-03",
+          "dividend": 0.19,
+          "currency": "บาท/หุ้น"
+        }
+      ],
+      "history_period_years": 5,
       "diagnostics": {
         "query_symbol": "TRUE",
         "source_record_count": 9,
@@ -670,7 +1801,9 @@
           "XD": 5,
           "XM": 4
         },
-        "parser": "raw_set_response"
+        "parser": "raw_set_response",
+        "history_count_5y": 5,
+        "history_oldest_date": "2025-11-17"
       },
       "market": "TH"
     },
@@ -681,6 +1814,75 @@
       "dividend": null,
       "currency": "บาท/หุ้น",
       "message": "ไม่พบกำหนด XD รอบถัดไป",
+      "history": [
+        {
+          "ex_date": "2026-09-09",
+          "payment_date": "2026-09-25",
+          "dividend": 2.0,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2026-04-21",
+          "payment_date": "2026-05-08",
+          "dividend": 12.0,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2025-09-10",
+          "payment_date": "2025-09-26",
+          "dividend": 2.0,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2025-05-15",
+          "payment_date": "2025-06-06",
+          "dividend": 2.5,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2025-04-17",
+          "payment_date": "2025-05-09",
+          "dividend": 8.0,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2024-09-11",
+          "payment_date": "2024-09-27",
+          "dividend": 1.5,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2024-04-22",
+          "payment_date": "2024-05-10",
+          "dividend": 6.0,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2023-09-13",
+          "payment_date": "2023-09-29",
+          "dividend": 0.5,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2023-04-17",
+          "payment_date": "2023-05-03",
+          "dividend": 3.5,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2022-09-07",
+          "payment_date": "2022-09-23",
+          "dividend": 0.5,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2022-04-18",
+          "payment_date": "2022-05-06",
+          "dividend": 2.75,
+          "currency": "บาท/หุ้น"
+        }
+      ],
+      "history_period_years": 5,
       "diagnostics": {
         "query_symbol": "KBANK",
         "source_record_count": 21,
@@ -690,7 +1892,9 @@
           "XD": 13,
           "XM": 8
         },
-        "parser": "raw_set_response"
+        "parser": "raw_set_response",
+        "history_count_5y": 11,
+        "history_oldest_date": "2022-04-18"
       },
       "market": "TH"
     },
@@ -701,6 +1905,69 @@
       "dividend": null,
       "currency": "บาท/หุ้น",
       "message": "ไม่พบกำหนด XD รอบถัดไป",
+      "history": [
+        {
+          "ex_date": "2026-09-08",
+          "payment_date": "2026-09-22",
+          "dividend": 0.16,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2026-04-22",
+          "payment_date": "2026-05-07",
+          "dividend": 0.22,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2025-09-10",
+          "payment_date": "2025-09-24",
+          "dividend": 0.16,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2025-04-22",
+          "payment_date": "2025-05-08",
+          "dividend": 0.25,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2024-09-10",
+          "payment_date": "2024-09-24",
+          "dividend": 0.18,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2024-04-22",
+          "payment_date": "2024-05-08",
+          "dividend": 0.22,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2023-09-12",
+          "payment_date": "2023-09-27",
+          "dividend": 0.18,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2023-04-19",
+          "payment_date": "2023-05-03",
+          "dividend": 0.21,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2022-09-13",
+          "payment_date": "2022-09-27",
+          "dividend": 0.17,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2022-04-20",
+          "payment_date": "2022-05-06",
+          "dividend": 0.2,
+          "currency": "บาท/หุ้น"
+        }
+      ],
+      "history_period_years": 5,
       "diagnostics": {
         "query_symbol": "HMPRO",
         "source_record_count": 18,
@@ -710,7 +1977,9 @@
           "XD": 12,
           "XM": 6
         },
-        "parser": "raw_set_response"
+        "parser": "raw_set_response",
+        "history_count_5y": 10,
+        "history_oldest_date": "2022-04-20"
       },
       "market": "TH"
     },
@@ -721,6 +1990,33 @@
       "dividend": null,
       "currency": "บาท/หุ้น",
       "message": "ไม่พบกำหนด XD รอบถัดไป",
+      "history": [
+        {
+          "ex_date": "2026-08-20",
+          "payment_date": "2026-09-03",
+          "dividend": 0.18,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2026-04-20",
+          "payment_date": "2026-05-07",
+          "dividend": 0.53,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2025-08-20",
+          "payment_date": "2025-09-05",
+          "dividend": 0.18,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2025-05-09",
+          "payment_date": "2025-05-29",
+          "dividend": 0.53,
+          "currency": "บาท/หุ้น"
+        }
+      ],
+      "history_period_years": 5,
       "diagnostics": {
         "query_symbol": "CPAXT",
         "source_record_count": 6,
@@ -730,7 +2026,9 @@
           "XD": 4,
           "XM": 2
         },
-        "parser": "raw_set_response"
+        "parser": "raw_set_response",
+        "history_count_5y": 4,
+        "history_oldest_date": "2025-05-09"
       },
       "market": "TH"
     },
@@ -741,6 +2039,51 @@
       "dividend": 0.2121,
       "currency": "บาท/หุ้น",
       "source": "SET Corporate Actions",
+      "history": [
+        {
+          "ex_date": "2026-11-25",
+          "payment_date": "2026-12-11",
+          "dividend": 0.2121,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2026-08-26",
+          "payment_date": "2026-09-11",
+          "dividend": 0.2212,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2026-05-27",
+          "payment_date": "2026-06-12",
+          "dividend": 0.2096,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2026-03-11",
+          "payment_date": "2026-03-27",
+          "dividend": 0.2194,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2025-11-21",
+          "payment_date": "2025-12-09",
+          "dividend": 0.2185,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2025-08-19",
+          "payment_date": "2025-09-04",
+          "dividend": 0.2169,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2025-05-21",
+          "payment_date": "2025-06-06",
+          "dividend": 0.2903,
+          "currency": "บาท/หุ้น"
+        }
+      ],
+      "history_period_years": 5,
       "diagnostics": {
         "query_symbol": "AXTRART",
         "source_record_count": 9,
@@ -750,7 +2093,9 @@
           "XD": 7,
           "XM": 2
         },
-        "parser": "raw_set_response"
+        "parser": "raw_set_response",
+        "history_count_5y": 7,
+        "history_oldest_date": "2025-05-21"
       },
       "market": "TH"
     },
@@ -761,6 +2106,135 @@
       "dividend": 0.02,
       "currency": "บาท/หุ้น",
       "source": "SET Corporate Actions",
+      "history": [
+        {
+          "ex_date": "2026-11-16",
+          "payment_date": "2026-12-02",
+          "dividend": 0.02,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2026-08-17",
+          "payment_date": "2026-09-04",
+          "dividend": 0.02,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2026-05-18",
+          "payment_date": "2026-06-04",
+          "dividend": 0.02,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2026-04-07",
+          "payment_date": "2026-04-30",
+          "dividend": 0.01,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2025-11-17",
+          "payment_date": "2025-12-03",
+          "dividend": 0.015,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2025-08-18",
+          "payment_date": "2025-09-05",
+          "dividend": 0.025,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2025-05-19",
+          "payment_date": "2025-06-06",
+          "dividend": 0.03,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2025-04-08",
+          "payment_date": "2025-04-30",
+          "dividend": 0.02,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2024-11-18",
+          "payment_date": "2024-12-04",
+          "dividend": 0.02,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2024-08-19",
+          "payment_date": "2024-09-05",
+          "dividend": 0.02,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2024-05-20",
+          "payment_date": "2024-06-06",
+          "dividend": 0.02,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2024-04-01",
+          "payment_date": "2024-04-25",
+          "dividend": 0.012,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2023-11-20",
+          "payment_date": "2023-12-06",
+          "dividend": 0.017,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2023-08-21",
+          "payment_date": "2023-09-06",
+          "dividend": 0.013,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2023-05-22",
+          "payment_date": "2023-06-06",
+          "dividend": 0.015,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2023-04-04",
+          "payment_date": "2023-04-27",
+          "dividend": 0.011,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2022-11-22",
+          "payment_date": "2022-12-06",
+          "dividend": 0.025,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2022-08-22",
+          "payment_date": "2022-09-06",
+          "dividend": 0.035,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2022-05-13",
+          "payment_date": "2022-05-31",
+          "dividend": 0.055,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2022-04-05",
+          "payment_date": "2022-04-28",
+          "dividend": 0.045,
+          "currency": "บาท/หุ้น"
+        },
+        {
+          "ex_date": "2021-11-19",
+          "payment_date": "2021-12-03",
+          "dividend": 0.04,
+          "currency": "บาท/หุ้น"
+        }
+      ],
+      "history_period_years": 5,
       "diagnostics": {
         "query_symbol": "DCC",
         "source_record_count": 30,
@@ -770,7 +2244,9 @@
           "XD": 24,
           "XM": 6
         },
-        "parser": "raw_set_response"
+        "parser": "raw_set_response",
+        "history_count_5y": 21,
+        "history_oldest_date": "2021-11-19"
       },
       "market": "TH"
     },
