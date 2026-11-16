@@ -59,6 +59,10 @@
     {
       "ticker": "EGCO.BK",
       "market": "TH"
+    },
+    {
+      "ticker": "CPF.BK",
+      "market": "TH"
     }
   ]
 }
