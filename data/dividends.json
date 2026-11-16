@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T12:16:04+07:00",
+  "updated_at": "2026-11-16T12:21:21+07:00",
   "source": "SET Corporate Actions / SmarterDividends",
   "stocks": {
     "TH:ADVANC.BK": {
@@ -566,6 +566,45 @@
     "TH:MJLF.BK": {
       "status": "error",
       "message": "ResponseParseError: Validation failed for MJLF (corporate-action) (CorporateAction) at item index 3: 1 validation error for CorporateAction\ninquiryDate\n  Input should be a valid datetime [type=datetime_type, input_value={'startDate': '2026-03-20...6-04-17T00:00:00+07:00'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.14/v/datetime_type",
+      "market": "TH"
+    },
+    "TH:RATCH.BK": {
+      "status": "no_upcoming",
+      "ex_date": null,
+      "payment_date": null,
+      "dividend": null,
+      "currency": "บาท/หุ้น",
+      "message": "ไม่พบกำหนด XD รอบถัดไป",
+      "diagnostics": {
+        "query_symbol": "RATCH",
+        "source_record_count": 20,
+        "xd_record_count": 12,
+        "latest_xd_date_in_source": "2026-09-08",
+        "action_type_counts": {
+          "XD": 12,
+          "XM": 7,
+          "XR": 1
+        }
+      },
+      "market": "TH"
+    },
+    "TH:SCB.BK": {
+      "status": "no_upcoming",
+      "ex_date": null,
+      "payment_date": null,
+      "dividend": null,
+      "currency": "บาท/หุ้น",
+      "message": "ไม่พบกำหนด XD รอบถัดไป",
+      "diagnostics": {
+        "query_symbol": "SCB",
+        "source_record_count": 14,
+        "xd_record_count": 9,
+        "latest_xd_date_in_source": "2026-09-08",
+        "action_type_counts": {
+          "XD": 9,
+          "XM": 5
+        }
+      },
       "market": "TH"
     }
   },
