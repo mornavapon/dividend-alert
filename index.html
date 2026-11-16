@@ -22,4 +22,14 @@
 </section>
 </div></div>
 <section class="panel settings"><h2>เชื่อมต่อเพื่อแก้ไข Watchlist</h2><p class="muted">ดูข้อมูลได้โดยไม่ต้องเชื่อมต่อ แต่การเพิ่ม/ลบหุ้นต้องใช้ GitHub Token ซึ่งจำกัดสิทธิ์เฉพาะ Repository นี้ (Contents: Read and write)</p><label for="tokenInput">Fine-grained GitHub Token</label><div class="token-row"><input id="tokenInput" type="password" placeholder="github_pat_…" autocomplete="off"><button id="connectBtn" class="btn primary">เชื่อมต่อ</button><button id="disconnectBtn" class="btn secondary">ออกจากระบบ</button></div><p id="githubStatus" class="muted small">ยังไม่ได้เชื่อมต่อ</p></section>
-<footer>Dividend Alert · ตรวจสอบประกาศบริษัทและ SET ก่อนใช้ตัดสินใจลงทุน</footer></main><script src="js/app.js"></script></body></html>
+<footer>Dividend Alert · ตรวจสอบประกาศบริษัทและ SET ก่อนใช้ตัดสินใจลงทุน</footer></main>
+<div id="sourceChooser" class="dialog-backdrop" hidden role="presentation">
+<section class="source-dialog" role="dialog" aria-modal="true" aria-labelledby="sourceChooserTitle">
+<button id="sourceChooserClose" class="dialog-close" type="button" aria-label="ปิด">×</button>
+<p class="eyebrow">DIVIDEND CHECK</p><h2 id="sourceChooserTitle">เลือกแหล่งข้อมูล</h2>
+<p class="muted">เลือกตรวจสอบข้อมูลจากแหล่งภายนอก หรือดูประวัติที่จัดเก็บในเว็บแอปนี้</p>
+<a id="sourceExternal" class="source-choice" href="#" target="_blank" rel="noopener"><strong>1. ดูข้อมูลปันผลจาก SETTRADE</strong><span>เปิดหน้า “สิทธิประโยชน์” ของหุ้นตัวนี้</span></a>
+<a id="sourceHistory" class="source-choice primary-choice" href="#"><strong>2. ดูประวัติปันผลย้อนหลัง 5 ปี</strong><span>ดูตารางวัน XD วันจ่าย และจำนวนเงินใน Dividend Alert</span></a>
+<p class="small muted">ประวัติในแอปแสดงเฉพาะรายการ Corporate Actions ที่ดึงได้จริง</p>
+</section></div>
+<script src="js/app.js"></script></body></html>
