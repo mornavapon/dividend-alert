@@ -99,6 +99,14 @@
     {
       "ticker": "TRUE.BK",
       "market": "TH"
+    },
+    {
+      "ticker": "KBANK.BK",
+      "market": "TH"
+    },
+    {
+      "ticker": "HMPRO.BK",
+      "market": "TH"
     }
   ]
 }
