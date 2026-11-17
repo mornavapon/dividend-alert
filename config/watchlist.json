@@ -143,6 +143,18 @@
     {
       "ticker": "GOOG",
       "market": "US"
+    },
+    {
+      "ticker": "AMZN",
+      "market": "US"
+    },
+    {
+      "ticker": "META",
+      "market": "US"
+    },
+    {
+      "ticker": "MSFT",
+      "market": "US"
     }
   ]
 }
