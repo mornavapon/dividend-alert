@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T16:40:34+07:00",
+  "updated_at": "2026-11-17T16:41:35+07:00",
   "source": "SET Corporate Actions / SmarterDividends",
   "stocks": {
     "TH:ADVANC.BK": {
@@ -2484,6 +2484,67 @@
           "payout_ratio",
           "variable_distribution"
         ]
+      },
+      "market": "US"
+    },
+    "US:GOOG": {
+      "status": "ok",
+      "ex_date": "2026-12-07",
+      "payment_date": "2026-12-14",
+      "dividend": 0.22,
+      "currency": "USD/share",
+      "source": "SmarterDividends",
+      "source_url": "https://smarterdividends.com/stocks/GOOG",
+      "diagnostics": {
+        "as_of": "2026-11-17",
+        "profile_fields": [
+          "as_of",
+          "attribution",
+          "changes",
+          "dividend",
+          "history_url",
+          "industry",
+          "market_cap",
+          "name",
+          "price",
+          "safety",
+          "sector",
+          "symbol",
+          "type",
+          "url",
+          "valuation"
+        ],
+        "dividend_fields": [
+          "annual_amount",
+          "five_year_growth_rate",
+          "forward_yield",
+          "frequency",
+          "growth_streak_is_minimum",
+          "growth_streak_years",
+          "last_payment",
+          "next_ex_date",
+          "next_pay_date",
+          "payout_basis",
+          "payout_ratio",
+          "variable_distribution"
+        ],
+        "calendar": {
+          "status": "matched",
+          "record_fields": [
+            "amount",
+            "forward_yield",
+            "frequency",
+            "name",
+            "pay_date",
+            "pct_change",
+            "previous_amount",
+            "safety_grade",
+            "special",
+            "status",
+            "symbol",
+            "type"
+          ]
+        }
       },
       "market": "US"
     }
