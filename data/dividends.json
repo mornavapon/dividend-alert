@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T16:36:40+07:00",
+  "updated_at": "2026-11-17T16:40:34+07:00",
   "source": "SET Corporate Actions / SmarterDividends",
   "stocks": {
     "TH:ADVANC.BK": {
@@ -2440,6 +2440,50 @@
             "type"
           ]
         }
+      },
+      "market": "US"
+    },
+    "US:VGLT": {
+      "status": "no_upcoming",
+      "ex_date": null,
+      "payment_date": null,
+      "dividend": null,
+      "currency": "USD/share",
+      "source": "SmarterDividends",
+      "source_url": "https://smarterdividends.com/stocks/VGLT",
+      "diagnostics": {
+        "as_of": "2026-11-17",
+        "profile_fields": [
+          "as_of",
+          "attribution",
+          "changes",
+          "dividend",
+          "history_url",
+          "industry",
+          "market_cap",
+          "name",
+          "price",
+          "safety",
+          "sector",
+          "symbol",
+          "type",
+          "url",
+          "valuation"
+        ],
+        "dividend_fields": [
+          "annual_amount",
+          "five_year_growth_rate",
+          "forward_yield",
+          "frequency",
+          "growth_streak_is_minimum",
+          "growth_streak_years",
+          "last_payment",
+          "next_ex_date",
+          "next_pay_date",
+          "payout_basis",
+          "payout_ratio",
+          "variable_distribution"
+        ]
       },
       "market": "US"
     }
