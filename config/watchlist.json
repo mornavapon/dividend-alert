@@ -139,6 +139,10 @@
     {
       "ticker": "VGLT",
       "market": "US"
+    },
+    {
+      "ticker": "GOOG",
+      "market": "US"
     }
   ]
 }
