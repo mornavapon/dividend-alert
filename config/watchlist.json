@@ -135,6 +135,10 @@
     {
       "ticker": "KO",
       "market": "US"
+    },
+    {
+      "ticker": "VGLT",
+      "market": "US"
     }
   ]
 }
