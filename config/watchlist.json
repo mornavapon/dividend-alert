@@ -131,6 +131,10 @@
     {
       "ticker": "VOO",
       "market": "US"
+    },
+    {
+      "ticker": "KO",
+      "market": "US"
     }
   ]
 }
