@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T13:53:03+07:00",
+  "updated_at": "2026-11-17T15:11:03+07:00",
   "source": "SET Corporate Actions / SmarterDividends",
   "stocks": {
     "TH:ADVANC.BK": {
@@ -256,7 +256,7 @@
       "source": "SmarterDividends",
       "source_url": "https://smarterdividends.com/stocks/NVDA",
       "diagnostics": {
-        "as_of": "2026-11-16",
+        "as_of": "2026-11-17",
         "profile_fields": [
           "as_of",
           "attribution",
@@ -300,7 +300,7 @@
       "source": "SmarterDividends",
       "source_url": "https://smarterdividends.com/stocks/TSM",
       "diagnostics": {
-        "as_of": "2026-11-16",
+        "as_of": "2026-11-17",
         "profile_fields": [
           "as_of",
           "attribution",
@@ -363,7 +363,7 @@
       "source": "SmarterDividends",
       "source_url": "https://smarterdividends.com/stocks/ASML",
       "diagnostics": {
-        "as_of": "2026-11-16",
+        "as_of": "2026-11-17",
         "profile_fields": [
           "as_of",
           "attribution",
@@ -407,7 +407,7 @@
       "source": "SmarterDividends",
       "source_url": "https://smarterdividends.com/stocks/AAPL",
       "diagnostics": {
-        "as_of": "2026-11-16",
+        "as_of": "2026-11-17",
         "profile_fields": [
           "as_of",
           "attribution",
@@ -2100,12 +2100,12 @@
       "market": "TH"
     },
     "TH:DCC.BK": {
-      "status": "ok",
-      "ex_date": "2026-11-16",
-      "payment_date": "2026-12-02",
-      "dividend": 0.02,
+      "status": "no_upcoming",
+      "ex_date": null,
+      "payment_date": null,
+      "dividend": null,
       "currency": "บาท/หุ้น",
-      "source": "SET Corporate Actions",
+      "message": "ไม่พบกำหนด XD รอบถัดไป",
       "history": [
         {
           "ex_date": "2026-11-16",
@@ -2259,7 +2259,7 @@
       "source": "SmarterDividends",
       "source_url": "https://smarterdividends.com/stocks/MU",
       "diagnostics": {
-        "as_of": "2026-11-16",
+        "as_of": "2026-11-17",
         "profile_fields": [
           "as_of",
           "attribution",
@@ -2303,7 +2303,7 @@
       "source": "SmarterDividends",
       "source_url": "https://smarterdividends.com/stocks/VTI",
       "diagnostics": {
-        "as_of": "2026-11-16",
+        "as_of": "2026-11-17",
         "profile_fields": [
           "as_of",
           "attribution",
@@ -2347,7 +2347,7 @@
       "source": "SmarterDividends",
       "source_url": "https://smarterdividends.com/stocks/VOO",
       "diagnostics": {
-        "as_of": "2026-11-16",
+        "as_of": "2026-11-17",
         "profile_fields": [
           "as_of",
           "attribution",
