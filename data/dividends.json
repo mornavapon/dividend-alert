@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T14:44:36+07:00",
+  "updated_at": "2026-11-19T14:41:28+07:00",
   "source": "SET Corporate Actions / SmarterDividends",
   "stocks": {
     "TH:ADVANC.BK": {
@@ -256,7 +256,7 @@
       "source": "SmarterDividends",
       "source_url": "https://smarterdividends.com/stocks/NVDA",
       "diagnostics": {
-        "as_of": "2026-11-18",
+        "as_of": "2026-11-19",
         "profile_fields": [
           "as_of",
           "attribution",
@@ -300,7 +300,7 @@
       "source": "SmarterDividends",
       "source_url": "https://smarterdividends.com/stocks/TSM",
       "diagnostics": {
-        "as_of": "2026-11-18",
+        "as_of": "2026-11-19",
         "profile_fields": [
           "as_of",
           "attribution",
@@ -363,7 +363,7 @@
       "source": "SmarterDividends",
       "source_url": "https://smarterdividends.com/stocks/ASML",
       "diagnostics": {
-        "as_of": "2026-11-18",
+        "as_of": "2026-11-19",
         "profile_fields": [
           "as_of",
           "attribution",
@@ -407,7 +407,7 @@
       "source": "SmarterDividends",
       "source_url": "https://smarterdividends.com/stocks/AAPL",
       "diagnostics": {
-        "as_of": "2026-11-18",
+        "as_of": "2026-11-19",
         "profile_fields": [
           "as_of",
           "attribution",
@@ -2226,12 +2226,6 @@
           "payment_date": "2022-04-28",
           "dividend": 0.045,
           "currency": "บาท/หุ้น"
-        },
-        {
-          "ex_date": "2021-11-19",
-          "payment_date": "2021-12-03",
-          "dividend": 0.04,
-          "currency": "บาท/หุ้น"
         }
       ],
       "history_period_years": 5,
@@ -2245,8 +2239,8 @@
           "XM": 6
         },
         "parser": "raw_set_response",
-        "history_count_5y": 21,
-        "history_oldest_date": "2021-11-19"
+        "history_count_5y": 20,
+        "history_oldest_date": "2022-04-05"
       },
       "market": "TH"
     },
@@ -2259,7 +2253,7 @@
       "source": "SmarterDividends",
       "source_url": "https://smarterdividends.com/stocks/MU",
       "diagnostics": {
-        "as_of": "2026-11-18",
+        "as_of": "2026-11-19",
         "profile_fields": [
           "as_of",
           "attribution",
@@ -2303,7 +2297,7 @@
       "source": "SmarterDividends",
       "source_url": "https://smarterdividends.com/stocks/VTI",
       "diagnostics": {
-        "as_of": "2026-11-18",
+        "as_of": "2026-11-19",
         "profile_fields": [
           "as_of",
           "attribution",
@@ -2347,7 +2341,7 @@
       "source": "SmarterDividends",
       "source_url": "https://smarterdividends.com/stocks/VOO",
       "diagnostics": {
-        "as_of": "2026-11-18",
+        "as_of": "2026-11-19",
         "profile_fields": [
           "as_of",
           "attribution",
@@ -2391,7 +2385,7 @@
       "source": "SmarterDividends",
       "source_url": "https://smarterdividends.com/stocks/KO",
       "diagnostics": {
-        "as_of": "2026-11-18",
+        "as_of": "2026-11-19",
         "profile_fields": [
           "as_of",
           "attribution",
@@ -2452,7 +2446,7 @@
       "source": "SmarterDividends",
       "source_url": "https://smarterdividends.com/stocks/VGLT",
       "diagnostics": {
-        "as_of": "2026-11-18",
+        "as_of": "2026-11-19",
         "profile_fields": [
           "as_of",
           "attribution",
@@ -2496,7 +2490,7 @@
       "source": "SmarterDividends",
       "source_url": "https://smarterdividends.com/stocks/GOOG",
       "diagnostics": {
-        "as_of": "2026-11-18",
+        "as_of": "2026-11-19",
         "profile_fields": [
           "as_of",
           "attribution",
@@ -2601,7 +2595,7 @@
       "source": "SmarterDividends",
       "source_url": "https://smarterdividends.com/stocks/META",
       "diagnostics": {
-        "as_of": "2026-11-18",
+        "as_of": "2026-11-19",
         "profile_fields": [
           "as_of",
           "attribution",
@@ -2645,7 +2639,7 @@
       "source": "SmarterDividends",
       "source_url": "https://smarterdividends.com/stocks/MSFT",
       "diagnostics": {
-        "as_of": "2026-11-18",
+        "as_of": "2026-11-19",
         "profile_fields": [
           "as_of",
           "attribution",
