@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T14:41:28+07:00",
+  "updated_at": "2026-11-20T14:32:35+07:00",
   "source": "SET Corporate Actions / SmarterDividends",
   "stocks": {
     "TH:ADVANC.BK": {
@@ -248,15 +248,15 @@
       "market": "TH"
     },
     "US:NVDA": {
-      "status": "no_upcoming",
-      "ex_date": null,
-      "payment_date": null,
-      "dividend": null,
+      "status": "ok",
+      "ex_date": "2026-12-02",
+      "payment_date": "2026-12-23",
+      "dividend": 0.25,
       "currency": "USD/share",
       "source": "SmarterDividends",
       "source_url": "https://smarterdividends.com/stocks/NVDA",
       "diagnostics": {
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "profile_fields": [
           "as_of",
           "attribution",
@@ -287,7 +287,24 @@
           "payout_basis",
           "payout_ratio",
           "variable_distribution"
-        ]
+        ],
+        "calendar": {
+          "status": "matched",
+          "record_fields": [
+            "amount",
+            "forward_yield",
+            "frequency",
+            "name",
+            "pay_date",
+            "pct_change",
+            "previous_amount",
+            "safety_grade",
+            "special",
+            "status",
+            "symbol",
+            "type"
+          ]
+        }
       },
       "market": "US"
     },
@@ -300,7 +317,7 @@
       "source": "SmarterDividends",
       "source_url": "https://smarterdividends.com/stocks/TSM",
       "diagnostics": {
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "profile_fields": [
           "as_of",
           "attribution",
@@ -363,7 +380,7 @@
       "source": "SmarterDividends",
       "source_url": "https://smarterdividends.com/stocks/ASML",
       "diagnostics": {
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "profile_fields": [
           "as_of",
           "attribution",
@@ -407,7 +424,7 @@
       "source": "SmarterDividends",
       "source_url": "https://smarterdividends.com/stocks/AAPL",
       "diagnostics": {
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "profile_fields": [
           "as_of",
           "attribution",
@@ -2253,7 +2270,7 @@
       "source": "SmarterDividends",
       "source_url": "https://smarterdividends.com/stocks/MU",
       "diagnostics": {
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "profile_fields": [
           "as_of",
           "attribution",
@@ -2297,7 +2314,7 @@
       "source": "SmarterDividends",
       "source_url": "https://smarterdividends.com/stocks/VTI",
       "diagnostics": {
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "profile_fields": [
           "as_of",
           "attribution",
@@ -2341,7 +2358,7 @@
       "source": "SmarterDividends",
       "source_url": "https://smarterdividends.com/stocks/VOO",
       "diagnostics": {
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "profile_fields": [
           "as_of",
           "attribution",
@@ -2385,7 +2402,7 @@
       "source": "SmarterDividends",
       "source_url": "https://smarterdividends.com/stocks/KO",
       "diagnostics": {
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "profile_fields": [
           "as_of",
           "attribution",
@@ -2446,7 +2463,7 @@
       "source": "SmarterDividends",
       "source_url": "https://smarterdividends.com/stocks/VGLT",
       "diagnostics": {
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "profile_fields": [
           "as_of",
           "attribution",
@@ -2490,7 +2507,7 @@
       "source": "SmarterDividends",
       "source_url": "https://smarterdividends.com/stocks/GOOG",
       "diagnostics": {
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "profile_fields": [
           "as_of",
           "attribution",
@@ -2595,7 +2612,7 @@
       "source": "SmarterDividends",
       "source_url": "https://smarterdividends.com/stocks/META",
       "diagnostics": {
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "profile_fields": [
           "as_of",
           "attribution",
@@ -2631,15 +2648,15 @@
       "market": "US"
     },
     "US:MSFT": {
-      "status": "ok",
-      "ex_date": "2026-11-19",
-      "payment_date": "2026-12-10",
-      "dividend": 0.98,
+      "status": "no_upcoming",
+      "ex_date": null,
+      "payment_date": null,
+      "dividend": null,
       "currency": "USD/share",
       "source": "SmarterDividends",
       "source_url": "https://smarterdividends.com/stocks/MSFT",
       "diagnostics": {
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "profile_fields": [
           "as_of",
           "attribution",
@@ -2670,24 +2687,7 @@
           "payout_basis",
           "payout_ratio",
           "variable_distribution"
-        ],
-        "calendar": {
-          "status": "matched",
-          "record_fields": [
-            "amount",
-            "forward_yield",
-            "frequency",
-            "name",
-            "pay_date",
-            "pct_change",
-            "previous_amount",
-            "safety_grade",
-            "special",
-            "status",
-            "symbol",
-            "type"
-          ]
-        }
+        ]
       },
       "market": "US"
     }
