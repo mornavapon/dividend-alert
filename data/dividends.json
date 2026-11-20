@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T14:32:35+07:00",
+  "updated_at": "2026-11-20T16:12:24+07:00",
   "source": "SET Corporate Actions / SmarterDividends",
   "stocks": {
     "TH:ADVANC.BK": {
@@ -2657,6 +2657,50 @@
       "source_url": "https://smarterdividends.com/stocks/MSFT",
       "diagnostics": {
         "as_of": "2026-11-20",
+        "profile_fields": [
+          "as_of",
+          "attribution",
+          "changes",
+          "dividend",
+          "history_url",
+          "industry",
+          "market_cap",
+          "name",
+          "price",
+          "safety",
+          "sector",
+          "symbol",
+          "type",
+          "url",
+          "valuation"
+        ],
+        "dividend_fields": [
+          "annual_amount",
+          "five_year_growth_rate",
+          "forward_yield",
+          "frequency",
+          "growth_streak_is_minimum",
+          "growth_streak_years",
+          "last_payment",
+          "next_ex_date",
+          "next_pay_date",
+          "payout_basis",
+          "payout_ratio",
+          "variable_distribution"
+        ]
+      },
+      "market": "US"
+    },
+    "US:ANT": {
+      "status": "no_upcoming",
+      "ex_date": null,
+      "payment_date": null,
+      "dividend": null,
+      "currency": "USD/share",
+      "source": "SmarterDividends",
+      "source_url": "https://smarterdividends.com/stocks/ANT",
+      "diagnostics": {
+        "as_of": "2026-11-15",
         "profile_fields": [
           "as_of",
           "attribution",
