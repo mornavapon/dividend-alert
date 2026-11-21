@@ -93,3 +93,12 @@ footer{padding:5px 0 18px}
 .history-note{padding:12px 14px;border:1px solid #66552b;border-radius:9px;background:#211b0c;color:#e8d49a;font-size:13px}
 .history-table{min-width:560px}
 @media(max-width:600px){.source-dialog{padding:21px}.source-choice{padding:14px}.source-choice strong{font-size:15px}}
+
+
+/* README help link in the header */
+.topbar-actions{margin-left:auto;display:flex;align-items:center;gap:12px}
+.help-link{display:inline-flex;align-items:center;gap:7px;padding:7px 11px;border:1px solid #244b32;border-radius:9px;color:#a9d9b8;text-decoration:none;font-size:13px;font-weight:650;white-space:nowrap}
+.help-link:hover{background:#0b2113;border-color:#32975a;color:#e7fff0}
+.help-link svg{width:19px;height:19px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;flex:none}
+.topbar-actions .badge{margin-left:0}
+@media(max-width:520px){.topbar{gap:9px;padding-left:12px;padding-right:12px}.topbar-actions{gap:6px}.help-link{padding:7px 8px;font-size:12px}.help-link svg{width:18px;height:18px}.badge{font-size:10px;padding:4px 7px}.brand h1{font-size:17px}.brand p{font-size:11px}}
