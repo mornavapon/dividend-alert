@@ -8,7 +8,7 @@
   https://mornavapon.github.io/dividend-alert/
   
 - ลิงก์ไปยัง AI ที่ช่วยพัฒนาโปรเจกต์:  
-  https://chatgpt.com/g/g-p-6ae01a981d208191b90116a6a767d75e-github-daanhunaelakaarlngthun/c/6af56c37-ebe0-83ec-bf18-ac2ddbef0a55
+  https://chatgpt.com/g/g-p-6ae01a981d208191b90116a6a767d75e-github-daanhunaelakaarlngthun/c/6afaa245-e0b8-83ec-9602-2fedcc61e248
 
 *ภาพหน้าจอเว็บแอป 01*
 
