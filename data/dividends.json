@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T16:12:24+07:00",
+  "updated_at": "2026-11-21T14:27:42+07:00",
   "source": "SET Corporate Actions / SmarterDividends",
   "stocks": {
     "TH:ADVANC.BK": {
@@ -256,7 +256,7 @@
       "source": "SmarterDividends",
       "source_url": "https://smarterdividends.com/stocks/NVDA",
       "diagnostics": {
-        "as_of": "2026-11-20",
+        "as_of": "2026-11-21",
         "profile_fields": [
           "as_of",
           "attribution",
@@ -317,7 +317,7 @@
       "source": "SmarterDividends",
       "source_url": "https://smarterdividends.com/stocks/TSM",
       "diagnostics": {
-        "as_of": "2026-11-20",
+        "as_of": "2026-11-21",
         "profile_fields": [
           "as_of",
           "attribution",
@@ -380,7 +380,7 @@
       "source": "SmarterDividends",
       "source_url": "https://smarterdividends.com/stocks/ASML",
       "diagnostics": {
-        "as_of": "2026-11-20",
+        "as_of": "2026-11-21",
         "profile_fields": [
           "as_of",
           "attribution",
@@ -424,7 +424,7 @@
       "source": "SmarterDividends",
       "source_url": "https://smarterdividends.com/stocks/AAPL",
       "diagnostics": {
-        "as_of": "2026-11-20",
+        "as_of": "2026-11-21",
         "profile_fields": [
           "as_of",
           "attribution",
@@ -1471,13 +1471,19 @@
       "market": "TH"
     },
     "TH:MJLF.BK": {
-      "status": "no_upcoming",
-      "ex_date": null,
-      "payment_date": null,
-      "dividend": null,
+      "status": "ok",
+      "ex_date": "2026-12-02",
+      "payment_date": "2026-12-18",
+      "dividend": 0.19,
       "currency": "บาท/หุ้น",
-      "message": "ไม่พบกำหนด XD รอบถัดไป",
+      "source": "SET Corporate Actions",
       "history": [
+        {
+          "ex_date": "2026-12-02",
+          "payment_date": "2026-12-18",
+          "dividend": 0.19,
+          "currency": "บาท/หุ้น"
+        },
         {
           "ex_date": "2026-09-02",
           "payment_date": "2026-09-18",
@@ -1590,16 +1596,16 @@
       "history_period_years": 5,
       "diagnostics": {
         "query_symbol": "MJLF",
-        "source_record_count": 32,
-        "xd_record_count": 21,
-        "latest_xd_date_in_source": "2026-09-02",
+        "source_record_count": 33,
+        "xd_record_count": 22,
+        "latest_xd_date_in_source": "2026-12-02",
         "action_type_counts": {
-          "XD": 21,
+          "XD": 22,
           "XM": 9,
           "XN": 2
         },
         "parser": "raw_set_response",
-        "history_count_5y": 18,
+        "history_count_5y": 19,
         "history_oldest_date": "2021-12-03"
       },
       "market": "TH"
@@ -2270,7 +2276,7 @@
       "source": "SmarterDividends",
       "source_url": "https://smarterdividends.com/stocks/MU",
       "diagnostics": {
-        "as_of": "2026-11-20",
+        "as_of": "2026-11-21",
         "profile_fields": [
           "as_of",
           "attribution",
@@ -2314,7 +2320,7 @@
       "source": "SmarterDividends",
       "source_url": "https://smarterdividends.com/stocks/VTI",
       "diagnostics": {
-        "as_of": "2026-11-20",
+        "as_of": "2026-11-21",
         "profile_fields": [
           "as_of",
           "attribution",
@@ -2358,7 +2364,7 @@
       "source": "SmarterDividends",
       "source_url": "https://smarterdividends.com/stocks/VOO",
       "diagnostics": {
-        "as_of": "2026-11-20",
+        "as_of": "2026-11-21",
         "profile_fields": [
           "as_of",
           "attribution",
@@ -2402,7 +2408,7 @@
       "source": "SmarterDividends",
       "source_url": "https://smarterdividends.com/stocks/KO",
       "diagnostics": {
-        "as_of": "2026-11-20",
+        "as_of": "2026-11-21",
         "profile_fields": [
           "as_of",
           "attribution",
@@ -2463,7 +2469,7 @@
       "source": "SmarterDividends",
       "source_url": "https://smarterdividends.com/stocks/VGLT",
       "diagnostics": {
-        "as_of": "2026-11-20",
+        "as_of": "2026-11-21",
         "profile_fields": [
           "as_of",
           "attribution",
@@ -2507,7 +2513,7 @@
       "source": "SmarterDividends",
       "source_url": "https://smarterdividends.com/stocks/GOOG",
       "diagnostics": {
-        "as_of": "2026-11-20",
+        "as_of": "2026-11-21",
         "profile_fields": [
           "as_of",
           "attribution",
@@ -2612,7 +2618,7 @@
       "source": "SmarterDividends",
       "source_url": "https://smarterdividends.com/stocks/META",
       "diagnostics": {
-        "as_of": "2026-11-20",
+        "as_of": "2026-11-21",
         "profile_fields": [
           "as_of",
           "attribution",
@@ -2656,7 +2662,7 @@
       "source": "SmarterDividends",
       "source_url": "https://smarterdividends.com/stocks/MSFT",
       "diagnostics": {
-        "as_of": "2026-11-20",
+        "as_of": "2026-11-21",
         "profile_fields": [
           "as_of",
           "attribution",
